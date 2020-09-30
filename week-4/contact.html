@@ -49,12 +49,52 @@
 </table>
    <section>
        <h3>We love to hear from you!</h3>
-       <p>Send us a message</p>
+       <!-- Adding a form -->
+       <form action="thanks.html" method="post">
+           <div>
+               <label for="full name">Your Name</label>
+               <input type="text" id="fullname" name="fullname" placeholder="John Doe" value="Mr. ">
+            </div>
+            <div>
+                <label for="your email">Email</label>
+                <input type="email" id="youremail" name="youremail" required placeholder="abc123@gmail.com">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div>
+                <label for="tcikets">How many tickets? (sold in pairs)</label>
+                <input type="number" name= "tickets" id="tickets" min="2" max="10" step="2">
+            </div>
+            <div>
+            <label for="row">Select Row</label>
+            <select name="row" id="row">
+               <option value="Front">Front</option>
+               <option value="Center" selected>Center</option>
+               <option value="Back">Back</option> 
+            </select>
+            </div>
+            <div>
+                <h3>Have you been here before?</h3>
+                <label for="Yes">Yes</label>
+                <input type="radio" id="yes" name="past">
+
+                <label for="No">No</label>
+                <input type="radio" id="yes" name="past">
+                <div>
+                    <h3>Policies</h3>
+                    <input type="checkbox" name="policies" id="polocies" required>
+                    <label for="policies">I agree with the Terms and Policies</label>
+                </div>
+            </div>
+            <button type="submit">Sign me up!</button>
+       </form>
    </section> 
  </Main>
  <!-- Footer of the site -->
     <footer>
-        <!-- HTML Entities -->
+    <!-- HTML Entities -->
         Copyright &copy; Reggie&apos;s Coffee Shop, 2020 
     </footer>
 </body>
