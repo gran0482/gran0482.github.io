@@ -12,4 +12,13 @@ header,footer {background-color:#4863A0 ;}
 /* replacing the bullets with squares */
 ol li {list-style: square}
 /* using the nth-child selector */
+ol li:nth-child(odd){background-color: #2B60DE;}
 /* Styling the navigation */
+nav li {list-style:none;}
+nav a {text-decoration: none;}
+nav ul li{background-color:#539DC2;
+nav li:hover,
+nav li:focus{background:#add8e6;}
+
+
+
