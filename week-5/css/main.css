@@ -1,0 +1,32 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: darkslategray;    
+}
+/* This is a CSS comment
+Shortcut for adding the comment CMD + /
+ */
+ h1{
+     color: white;
+ }
+ P{
+     background-color: lightblue;
+ }
+/* Selecting multiple elements to add the same style */
+h1,h2,h3,h4 {text-decoration: underline;}
+/* Selecting child elemets */
+nav ul {list-style: none}
+/* selecting child elements multiple levels */
+nav ul a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+/* Selecting HTML element with class name */
+.orange-text{
+    background: darkslategray;
+    color: orange;
+    text-decoration: none;
+}
+/* selecting id value for styling the element */
+#tow{
+    background: orange;
+}
