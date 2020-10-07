@@ -1,0 +1,15 @@
+/* Body tag and increasing the text size */
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+.large text{font-size: 18px;}
+/* Selecting Multiple elements */
+header,footer {background-color:#4863A0 ;}
+/* Class selector */
+.site-title {color:#FFFFFF;}
+/* id seletcor */
+#my-image{box-shadow: 0 0 2px 1px black;}
+/* replacing the bullets with squares */
+ol li {list-style: square}
+/* using the nth-child selector */
+/* Styling the navigation */
