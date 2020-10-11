@@ -9,7 +9,7 @@ h1 {text-align: center;}
 body{background-color:#d3d3d3;}
 /* Selecting Multiple elements */
 header,footer {background-color:#4863A0 ;}
-h3{color: #e2e2e2}
+h3{color:#5288a4;}
 /* Class selector */
 .site-title {color:#FFFFFF;}
 .notes-title{color:#FFFFFF;}
@@ -25,10 +25,10 @@ ol li:nth-child(odd){background-color: #85B3D1FF;}
     nav li {list-style:none;}
     nav a {text-decoration: none;}
     /* Adding a background and border to the links  */
-    nav ul li{background:#85B3D1FF;}
-    nav ul{border: 1px solid black;}
+    nav ul li a {background:#85B3D1FF; }
+    nav ul a {border: 2px solid black;}
     /* Changing the background on hover or focus of the links */
-    nav li:hover,
+    nav li a:hover,
     nav li:focus{background:#add8e6;}
 
 
