@@ -3,18 +3,23 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 body{font-size: 18px;}
+/* centering text */
+h1 {text-align: center;}
+/* Changing the background colour of index and notes */
+body{background-color:#d3d3d3;}
 /* Selecting Multiple elements */
 header,footer {background-color:#4863A0 ;}
 h3{color: #e2e2e2}
 /* Class selector */
 .site-title {color:#FFFFFF;}
 .notes-title{color:#FFFFFF;}
+.site-title{color: #ff9d5c}
 /* id seletcor */
 #my-image{box-shadow: 0 0 2px 1px black;}
 /* replacing the bullets with squares */
 ol li {list-style: square}
 /* using the nth-child selector */
-ol li:nth-child(odd){background-color: #2B60DE;}
+ol li:nth-child(odd){background-color: #85B3D1FF;}
 /* Styling the navigation */
     /* Removing bullets and underline */
     nav li {list-style:none;}
