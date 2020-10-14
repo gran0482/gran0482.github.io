@@ -1,0 +1,144 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: darkslategray;  
+  /*Adding background image */
+  background-image: url("../images/white_brick_wall.png");
+}
+/* This is a CSS comment
+Shortcut for adding the comment CMD + /
+ */
+ h1{
+     color: white;
+ }
+ P{
+     background-color: lightblue;
+ }
+/* Selecting multiple elements to add the same style */
+h1,h2,h3,h4 {text-decoration: underline;}
+/* Selecting child elemets */
+nav ul {list-style: none}
+/* selecting child elements multiple levels */
+nav ul a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+/* Selecting HTML element with class name */
+.orange-text{
+    background: darkslategray;
+    color: orange;
+    text-decoration: none;
+}
+/* selecting id value for styling the element */
+#tow{
+    /* color image repeat x-axis y-axis */
+    background: orange url("../images/bread.jpg") no-repeat center center;
+    background-size: cover;
+    /* additonal styles to make text visible */
+    color: white;
+    font-size: 24px;
+}
+/* We can add multiple classes to one element */
+.large-text{
+    font-size: 20px;
+}
+/* Child selector or Direct Child selector 
+seletcing only the p directly inside the article*/
+article>p{
+    font-size: 24px;
+    font-weight: bold;
+    /* values light, normal, bold, bolder, or 100, 200, 300, 400.. */
+    line-height: 1.5;
+    /* typically between 1.4-1.6 */
+    text-transform: lowercase;
+    text-align: center;
+}
+/* adjacent sibling selector 
+selecting only ul that is adjacent  to h3*/
+h3+ul{
+    border: 1px solid black;
+}
+/* attribute selector 
+Seletcing element that has attribute of href to set value #tow
+ */
+ a[href="#tow"]{
+     font-weight: bold; 
+ }
+[target="_blank"]{
+    text-transform: uppercase;
+}
+/* using Pseudo Classes
+Styling Navitation */
+nav ul a, 
+nav ul a:link,
+nav ul a:visited{
+    background:orange;
+    /* horizontal verticle blur spread color */
+    box-shadow: -2px 2px 4px 2px black;
+}
+nav ul a:hover,
+nav ul a:focus{
+    text-decoration: underline;
+}
+nav ul a:active{
+    /* horizontal verticle blur spread color */
+    box-shadow: 0 0 4px 2px black;
+}
+/* position related selectors */
+/* first child selector */
+aside ul li:first-child{
+    font-weight: bold;
+}
+/* last child selector */
+section ol li:last-child{
+    font-weight: bold
+}
+/* Collapse table borders into one */
+table{
+    border-collapse: collapse;
+}
+/* nth-child selector */
+tbody tr:nth-child(even){
+    /* hex value for with 6 characters */
+    background-color: #d5836c;
+}
+/* using the nth-child with n. where n is 0,1,2,.... number of elements */
+table th:nth-child(n),
+table td:nth-child(n){
+    border: 1px solid #000;
+}
+/* 2n+1 will be  1,3,5,7.....*/
+table td:nth-child(2n+1){
+    background: rgba(0,0,0,.2);
+}
+/* CSS Specifity 
+Formula: inline-style id class tag-name*/
+
+/* adding a style using tage name 
+/* Specifity: 0001 */
+footer{
+    background: aqua;
+}
+/* adding a style using tage name 
+/* Specifity: 0001 
+since it comes after, cascade will overwirte them*/
+footer{
+    background: red
+}
+/* 
+adding a style using two tag-names
+specifiicuty: 0002 */
+body footer {
+    background: cornflowerblue
+}
+/* adding a style using class name 
+Specificty: 0010 */
+.site-footer{
+    background-color: orange;
+}
+/* 
+adding a style using class name and tag name
+specifity: 0011
+ */
+footer.site-footer{
+    background-color: lightgreen
+}
