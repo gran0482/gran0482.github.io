@@ -136,7 +136,7 @@ footer{
 adding a style using two tag-names
 specifiicuty: 0002 */
 body footer {
-    background: cornflowerblue
+    background: cornflowerblue;
 }
 /* adding a style using class name 
 Specificty: 0010 */
