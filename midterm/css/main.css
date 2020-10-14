@@ -1,4 +1,60 @@
+/* Body setup with font family and background color */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #aad4cf;
+    background-color: #aad4cf;
+}
+/* Centering image */
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+/* Header - positioning site title ontop of image */
+.Centered{
+    position: absolute;
+    top: 23%;
+    left: 43%;
+    transform: translate (-50%, -50%);
+}
+h1{
+    color: #FFFFFF;
+    font-size: 39px;
+}
+/* Navigation */
+.home {
+    float: none;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate (-50%, -50%);
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF
+}
+.story {
+    float: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF
+}
+.contact {
+    float: none;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate (-50%, -50%);
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF
+}
+article .close-starfish{
+    float: left;
+    padding: 0 10px 0 0;
+    max-width: 15%;
+    height: auto;
 }
