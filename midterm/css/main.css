@@ -1,14 +1,20 @@
 /* Body setup with font family and background color */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     background-color: #aad4cf;
+    margin-left: 15%;
+    margin-right: 15%
 }
-/* Centering image */
+/* Background colour of text */
+article{
+    background-color:#d4e9e7;
+}
+/* Centering image for far away image */
 .center{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%
+    width: 100%
 }
 /* Header - positioning site title ontop of image */
 .Centered{
@@ -30,7 +36,7 @@ h1{
     transform: translate (-50%, -50%);
     text-decoration: none;
     font-size: 25px;
-    color: #FFFFFF
+    color: black;
 }
 .story {
     float: none;
@@ -40,7 +46,7 @@ h1{
     transform: translate (-50%, -50%);
     text-decoration: none;
     font-size: 25px;
-    color: #FFFFFF
+    color: red;
 }
 .contact {
     float: none;
@@ -50,14 +56,18 @@ h1{
     transform: translate (-50%, -50%);
     text-decoration: none;
     font-size: 25px;
-    color: #FFFFFF
+    color: red;
 }
 article .close-starfish{
     float: left;
     padding: 0 10px 0 0;
-    max-width: 10%;
+    max-width: 25%;
     height: auto;
 }
 .text-align-right{
     text-align:right;
+}
+.button{
+    background-color: #d4e9e7;
+    
 }
