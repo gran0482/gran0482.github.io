@@ -3,6 +3,7 @@ font-family: Arial, Helvetica, sans-serif;
 color: darkslategray;  
   /*Adding background image */
   background-image: url("../images/white_brick_wall.png");
+  padding-top: 82px;
 }
 .container{
     max-width: 1024px;
@@ -85,8 +86,14 @@ aside{
 section {
     clear: both;
 }
+.orange-text.large-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 /* selecting id value for styling the element */
 #tow {
+    position: relative;
     /* color image repeat x-axis y-axis */
     background: orange url("../images/bread.jpg") no-repeat center center;
     background-size: cover;
@@ -97,7 +104,7 @@ section {
     font-size: 1.5rem;
     
     /* adding padding to add space between the border and content */
-    padding: 1em;
+    padding: 1em 1em 3em 1em;
     /* 1em = 1 x 24  = 24px*/
     /* Adding width using viewport width elememt */
     width: 50vw;
@@ -130,6 +137,14 @@ Seletcing element that has attribute of href to set value #tow
  }
 [target="_blank"]{
     text-transform: uppercase;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .8);
+    z-index: 999;
 }
 /* using Pseudo Classes
 Styling Navitation */
