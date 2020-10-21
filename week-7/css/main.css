@@ -4,12 +4,39 @@ color: darkslategray;
   /*Adding background image */
   background-image: url("../images/white_brick_wall.png");
 }
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
 /* This is a CSS comment
 Shortcut for adding the comment CMD + /
  */
+ /*  
+ html{
+     box-sizing: border-box;
+ }
+    *,
+    *:before
+    *:after{
+        border: inherit;
+    }
+    nav{
+        border-color: blue;
+    }
+ }
  h1{
      color: white;
  }
+ h1:before{
+     content: "\02D2";
+     font-size: 2em
+ }
+ h1:after{
+     content: "\02D3"
+  */
+  h1{
+    color: white;
+  }
  P{
      background-color: lightblue;
  }
@@ -17,19 +44,49 @@ Shortcut for adding the comment CMD + /
 h1,h2,h3,h4 {text-decoration: underline;}
 /* Selecting child elemets */
 nav ul {list-style: none}
+
+nav ul li{
+    display: inline-block;
+    width: 49%;
+    padding: 1em;
+    box-sizing: border-box;
+}
 /* selecting child elements multiple levels */
 nav ul a {
+    display: block;
     color: darkslategrey;
     text-decoration: none;
 }
 /* Selecting HTML element with class name */
 .orange-text{
+    padding: 1.5em;
     background: darkslategray;
+    width: 300px;
+    display: block;
     color: orange;
     text-decoration: none;
 }
+/* Two Colum layout using float */
+article, 
+aside{
+    background-color: rgba(255,255,255, 0.6);
+    border: 1px solid black;
+    padding: 1.5em;
+    width: 80%;
+    box-sizing: border-box;
+    float: left;
+}
+img{
+    width: 100%;
+}
+aside{
+    width: 20%;
+}
+section {
+    clear: both;
+}
 /* selecting id value for styling the element */
-#tow{
+#tow {
     /* color image repeat x-axis y-axis */
     background: orange url("../images/bread.jpg") no-repeat center center;
     background-size: cover;
