@@ -1,6 +1,6 @@
 /* Body setup with font family and background color */
 body{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     margin-left: 15%;
     margin-right: 15%;
@@ -24,7 +24,7 @@ article{
     position: absolute;
     top: 60%;
     left: 0%;
-    transform: translate (-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 h1{
     position:absolute;
@@ -33,6 +33,15 @@ h1{
     width: 100%;
     color: #FFFFFF;
     font-size: 40px;
+    font-weight: normal;
+}
+h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+h3{
+    font-weight: normal;
+    font-size: 20px;
 }
 img{
     width: 100%
@@ -67,7 +76,11 @@ article .close-starfish{
 .clearfix{
     overflow: auto;
     clear: both;
-    padding: 1%;
+}
+/* List */
+ul{
+ list-style: inside;
+ padding-left: 0%;
 }
 /* Styling the Contact section */
 /* Container for the box */
@@ -76,21 +89,21 @@ article .close-starfish{
     padding: 1em;
 }
 div input{
-    display; block;
     padding-right: 80%;
-    padding bottom: 0%;
+    padding-bottom: 0%;
 }
 .message-box{
-    max-width: 100%;
+    width: 100%; 
+    resize: none;
+    height: 150px;
 }
 .forms{
     max-width: 20%;
 }
 .button{
     background-color: #d4e9e7; 
-    border-radius: 5px;
-    padding: .2em;
-    font-size: 16px;
+    padding: .7em;
+    font-size: 10px;
     display: inline-block;
 }
 /* copy right */
