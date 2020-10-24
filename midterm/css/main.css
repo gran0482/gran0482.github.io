@@ -22,8 +22,8 @@ article{
 .Centered{
     display: block;
     position: absolute;
-    top: 23%;
-    left: 43%;
+    top: 60%;
+    left: 0%;
     transform: translate (-50%, -50%);
 }
 h1{
@@ -32,10 +32,15 @@ h1{
     margin: 0 auto;
     width: 100%;
     color: #FFFFFF;
-    font-size: 39px;
+    font-size: 50px;
 }
 img{
     width: 100%
+}
+/* Container holding the starfish image and the title */
+.container-2{
+    position: relative;
+    text-align: center;
 }
 /* Navigation */
 table{
@@ -50,6 +55,9 @@ td{
 a{
     text-decoration: None;   
 }
+nav td:hover{ 
+     background: #85B3D1FF;
+ } 
 /* Life of a starfish */
 article .close-starfish{
     padding: 0 10px 0 0;
@@ -62,6 +70,7 @@ article .close-starfish{
     padding: 1%;
 }
 /* Styling the Contact section */
+/* Container for the box */
 .container{
     border: 1px solid black;
     padding: 1em;
@@ -80,7 +89,7 @@ div input{
 .button{
     background-color: #d4e9e7; 
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: .2em;
     font-size: 16px;
     display: inline-block;
 }
