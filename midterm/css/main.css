@@ -1,18 +1,18 @@
-/* Body setup with font family and background color */
+/* Body Content with font family and background color */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
     margin-left: 15%;
     margin-right: 15%;
 }
+/* Setting the padding and the background color of the text  */
 section{
     padding: 10px;
 }
-/* Background colour of text */
 article{
     background-color:#d4e9e7;
 }
-/* Centering image for far away image */
+/* Centering image for the far away image */
 .center{ 
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +34,7 @@ h1{
     font-size: 40px;
     font-weight: normal;
 }
+/*  Text style for life of a Starfish and Facts about a starfish*/
 h2{
     font-weight: normal;
     font-size: 25px;
@@ -42,6 +43,7 @@ h3{
     font-weight: normal;
     font-size: 20px;
 }
+/* Setting the width for both images */
 img{
     width: 100%
 }
@@ -56,7 +58,6 @@ table{
     text-align: center;
 }
 td{
-    /* border-right: 1px solid black; */
     font-size: 20px;
     padding: .3em
 }
@@ -66,17 +67,17 @@ a{
 nav td:hover{ 
      background: #85B3D1FF;
  } 
-/* Life of a starfish */
+/* Paragraph about the life of a starfish */
 article .close-starfish{
     padding: 0 10px 0 0;
     max-width: 20%;
     float: left;
 }
+/* Prevent text wrapping of facts about startfish and styling the list */
 .clearfix{
     overflow: auto;
     clear: both;
 }
-/* List */
 ul{
  list-style: inside;
  padding-left: 0%;
@@ -87,6 +88,7 @@ ul{
     border: 1px solid black;
     padding: 1em;
 }
+/* Input feilds */
  input[type=text]{ 
     width: 100%;
  } 
