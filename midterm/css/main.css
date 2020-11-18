@@ -75,7 +75,7 @@ article .close-starfish{
 }
 /* Prevent text wrapping of facts about startfish and styling the list */
 .clearfix{
-    overflow: auto;
+    overflow: auto; 
     clear: both;
 }
 ul{
