@@ -14,11 +14,11 @@ h6 {
     margin: 0 auto;
 }
 .site-header,
-.site-footer,{
-    background-color: #cccccc;
+.site-footer {
+    background-color: #808080;
 }
 .location{
-    background-color: 
+    background-color: lavender;
 }
 .location .iframe{
     width: 100%;
