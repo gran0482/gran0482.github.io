@@ -14,15 +14,17 @@
 </head>
 <main>
     <!-- navigation -->
-    <body class="main-conatiner">
+    <body class="main-container">
         <section class="nav-container">
             <img src="images/logo.png" alt="Star Logo">
             <nav class="nav styles">
-                <ul>Home</ul>
-                <ul>About Us</ul>
-                <ul>Service</ul>
-                <ul>Team</ul>
-                <ul>Contact</ul>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
             </nav>
             <p>
                 <label for="Search"></label> 
@@ -42,7 +44,7 @@
             <img src="images/main-banner.jpg" alt="Conference room">
         </div>
         <!-- About us -->
-        <section class="about-us">
+        <section class="about-us" id="About">
             <div>
                 <img src="images/about-us.jpg" alt="Common Area">
                 <h2>About Us</h2>
@@ -55,7 +57,7 @@
         </section>
         <!-- Our Services -->
         <section>
-            <div class="Our services">
+            <div class="Our services" id="Services">
                 <h2>Our services</h2>
                 <img src="images/digital.jpg" alt="iphone and computer">
                 <h2>Digital Transformation</h2>
@@ -122,13 +124,16 @@
             </div>
         </section>
         <section>
-            <div class="our-team">
+            <!-- Our Team -->
+            <div class="our-team" id="Team">
                 <h1>Our Team</h1>
                 <img src="images/john.jpg" alt="john-doe" class="John-doe">
                 <h2>John Doe</h2>
                 <h3>CEO and Co-owner</h3>
                 <hr>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui consectetur accusantium at inventore vel. Odio illo quis molestiae laudantium voluptatem, iure porro dolores nemo expedita cumque debitis consequuntur quidem.</p>
+                <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui consectetur accusantium at inventore vel. Odio illo quis molestiae laudantium voluptatem, iure porro dolores nemo expedita cumque debitis consequuntur quidem.
+                </p>
             </div>
             <div>
                 <img src="images/bob.jpg" alt="bob" class="bob">
@@ -139,7 +144,7 @@
             </div>
         </section>
         <!-- Contact Us -->
-        <section>
+        <section id="Contact">
             <div>
                 <h1>Contact us</h1>
                 <h2>Send us a message</h2>
