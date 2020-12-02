@@ -55,6 +55,7 @@ table {
 html{
     font-family: 'Open Sans', sans-serif;
 }
+/* Navigation */
 .star-logo{
     background-color: #c78c06;
     padding: 1rem;
@@ -67,6 +68,79 @@ html{
 .nav-styles{
     text-align: center;
 }
-ul, li:hover{
+ul, li{
+    padding: 10px;
+}
+li:hover{
+    background: #c78c06;
+}
+li:focus{
+    background: #222;
+}
+.search-bar{
+    width: 85%;
+    padding: 5px;
+}
+.im-magnifier{
+background:  #c78c06;
+}
+/* Banner image */
+.banner{
+    background: #222;
+}
+h1{
+    color: white;
+    Font-size: 4rem;
+}
+.connect-with-us{
+    border: none;
+    background: #c78c06;
+    padding: 1rem;
+    font-size: large;
+}
+/* About us */
+.about-us{
+background: #ffe6ac;
+padding: 10px;
+}
+h2{
+    font-size: 3rem;
+    padding: 15px;
+}
+/* Our services */
+.digital-transformation{
+    background: #ffe6ac;
+    padding: 10px;
+}
+.digital-plans{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 10px; 
+}
+h3{
+    font-size: 2rem;
+    padding: 15px;
+}
+/* Marketing */
+.marketing{
+background: #ffe6ac;
+padding: 10px;
+}
+.marketing-button{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 10px;
+}
+/* Video */
+.video-production{
+    background: #ffe6ac;
+    padding: 10px;
+}
+.video-plans{
+    color: white;
+    background: #222;
+    border: none;
     padding: 10px;
 }
