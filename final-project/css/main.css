@@ -227,7 +227,7 @@ html{
     }
     .search-bar .im-magnifier{
         display: flex;
-        flex-direction: row-reverse;
+        margin-left: auto;
     }
     .orange-rectangle{
         background-color: #222;
@@ -241,6 +241,13 @@ html{
         
         
         ;*/
+    }
+    .google-map{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    footer .conatiner{
+        width: 100%;
     }
 }
     
