@@ -52,164 +52,184 @@ table {
 /* ----------------------------
         CUSTOM STYLES  
 ------------------------------*/
+/* ----------- 
+    Mobile
+--------------*/
 html{
     font-family: 'Open Sans', sans-serif;
 }
-/* Navigation */
-.star-logo{
-    background-color: #c78c06;
-    padding: 1rem;
+.container{
+    max-width: 1200px;
 }
-.navigation{
-    background-color: #222;
-    list-style: none;
-    padding: 50px;
+    /* Navigation */
+    .star-logo{
+        background-color: #c78c06;
+        padding: 1rem;
+    }
+    .navigation{
+        background-color: #222;
+        list-style: none;
+        padding: 50px;
+    }
+    .nav-styles{
+        text-align: center;
+    }
+    ul, li{
+        padding: 10px;
+    }
+    li:hover{
+        background: #c78c06;
+    }
+    li:focus{
+        background: #222;
+    }
+    .search-bar{
+        width: 85%;
+        padding: 5px;
+    }
+    .im-magnifier{
+        background:  #c78c06;
+    }
+    /* Banner image */
+    .banner{
+        background: #222;
+    }
+    h1{
+        color: white;
+        Font-size: 4rem;
+    }
+    .connect-with-us{
+        border: none;
+        background: #c78c06;
+        padding: 1rem;
+        font-size: large;
+    }
+    /* About us */
+    .about-us{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    h2{
+        font-size: 3rem;
+        padding: 15px;
+    }
+    /* Our services */
+    .digital-transformation{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    .digital-plans{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 10px; 
+    }
+    h3{
+        font-size: 2rem;
+        padding: 15px;
+    }
+    /* Marketing */
+    .marketing{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    .marketing-button{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 10px;
+    }
+    /* Video */
+    .video-production{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    .video-plans{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 10px;
+    }
+    /* Web development */
+    .web-development{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    .web-plans{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 10px;
+    }
+    /* Print */
+    .newspaper-stands{
+        background: #ffe6ac;
+        padding: 10px;
+    }
+    .print{
+        color: white;
+        background: #222;
+        border: none;
+        padding: 10px;
+    } 
+    /* Our Vision */
+    .vision{
+        background: #222;
+        color: white;
+        padding: 15px;
+    }
+    /* Our Team */
+    .our-team{
+        background: #ffe6ac;
+    }
+    hr{
+        color:#c78c06;
+    }
+    /* Contact us */
+    .contact-us{
+        width: 85%;
+        padding: 15px;
+    }
+    .message-box .full-name .your-email{
+        width: 85%;
+    }
+    .send-button{
+        border: none;
+        background: #222;
+        color: #c78c06;
+        font-size: 25px;
+    }
+    th{
+        background-color: #ffe6ac;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 15px;
+    }
+    
+    footer .container{
+        background-color: #222;
+        color: #c78c06;
+        padding: 20px;
+    }
+    footer .container p{
+        padding: 10px;
+    }
+/* ----------------
+    Desktop Styles
+------------------*/
+@media screen and (min-width: 760px){
+    ul, li{
+        display: inline;
+        font-size: 20px;
+    }
+    .search-bar .im-magnifier{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
-.nav-styles{
-    text-align: center;
-}
-ul, li{
-    padding: 10px;
-}
-li:hover{
-    background: #c78c06;
-}
-li:focus{
-    background: #222;
-}
-.search-bar{
-    width: 85%;
-    padding: 5px;
-}
-.im-magnifier{
-background:  #c78c06;
-}
-/* Banner image */
-.banner{
-    background: #222;
-}
-h1{
-    color: white;
-    Font-size: 4rem;
-}
-.connect-with-us{
-    border: none;
-    background: #c78c06;
-    padding: 1rem;
-    font-size: large;
-}
-/* About us */
-.about-us{
-background: #ffe6ac;
-padding: 10px;
-}
-h2{
-    font-size: 3rem;
-    padding: 15px;
-}
-/* Our services */
-.digital-transformation{
-    background: #ffe6ac;
-    padding: 10px;
-}
-.digital-plans{
-    color: white;
-    background: #222;
-    border: none;
-    padding: 10px; 
-}
-h3{
-    font-size: 2rem;
-    padding: 15px;
-}
-/* Marketing */
-.marketing{
-background: #ffe6ac;
-padding: 10px;
-}
-.marketing-button{
-    color: white;
-    background: #222;
-    border: none;
-    padding: 10px;
-}
-/* Video */
-.video-production{
-    background: #ffe6ac;
-    padding: 10px;
-}
-.video-plans{
-    color: white;
-    background: #222;
-    border: none;
-    padding: 10px;
-}
-/* Web development */
-.web-development{
-    background: #ffe6ac;
-    padding: 10px;
-}
-.web-plans{
-    color: white;
-    background: #222;
-    border: none;
-    padding: 10px;
-}
-/* Print */
-.newspaper-stands{
-    background: #ffe6ac;
-    padding: 10px;
-}
-.print{
-    color: white;
-    background: #222;
-    border: none;
-    padding: 10px;
-} 
-/* Our Vision */
-.vision{
-    background: #222;
-    color: white;
-    padding: 15px;
-}
-/* Our Team */
-.our-team{
-    background: #ffe6ac;
-}
-hr{
-    color:#c78c06;
-}
-/* Contact us */
-.contact-us{
-    width: 85%;
-    padding: 15px;
-}
-.message-box .full-name .your-email{
-    width: 85%;
-}
-.send-button{
-    border: none;
-    background: #222;
-    color: #c78c06;
-    font-size: 25px;
-}
-th{
-    background-color: #ffe6ac;
-}
-table{
-    border-collapse: collapse;
-    width: 100%;
-}
-td, th{
-    border: 1px solid black;
-    padding: 15px;
-}
-
-footer .container{
-    background-color: #222;
-    color: #c78c06;
-    padding: 20px;
-}
-footer .container p{
-    padding: 10px;
-}
+    
