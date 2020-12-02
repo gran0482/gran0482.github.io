@@ -77,13 +77,14 @@ html{
     }
     .orange-rectangle{
         background-color: #c78c06;
-        padding: 2rem;
+        padding: 8px;
     }
     ul, li{
         padding: 10px;
     }
     li:hover{
         background: #c78c06;
+        padding: 15px;
     }
     li:focus{
         color: #222;
@@ -96,16 +97,18 @@ html{
         background:  #c78c06;
     }
     /* Banner image */
+    .main-banner{
+        width: 100%;
+        color: aquamarine;
+    }
     .banner{
         background: #222;
     }
     h1{
         color: white;
         Font-size: 4rem;
-    }
-    h1, p{
-        color: white;
-    }
+        font-weight: bold;
+    }   
     .connect-with-us{
         border: none;
         background: #c78c06;
@@ -113,6 +116,9 @@ html{
         font-size: large;
     }
     /* About us */
+    h3{
+        font-weight: bold;
+    }
     .about-us{
         background: #ffe6ac;
         padding: 10px;
@@ -120,17 +126,19 @@ html{
     h2{
         font-size: 3rem;
         padding: 15px;
+        font-weight: bold;
     }
     /* Our services */
-    .digital-transformation{
-        background: #ffe6ac;
-        padding: 10px;
-    }
-    .digital-plans{
+    .button-2{
         color: white;
         background: #222;
         border: none;
-        padding: 10px; 
+        padding: 24px; 
+        font-size: 18px;
+    }
+    .digital-transformation{
+        background: #ffe6ac;
+        padding: 10px;
     }
     h3{
         font-size: 2rem;
@@ -141,50 +149,29 @@ html{
         background: #ffe6ac;
         padding: 10px;
     }
-    .marketing-button{
-        color: white;
-        background: #222;
-        border: none;
-        padding: 10px;
-    }
-    /* Video */
+     /* Video */
     .video-production{
         background: #ffe6ac;
         padding: 10px;
-    }
-    .video-plans{
-        color: white;
-        background: #222;
-        border: none;
-        padding: 10px;
-    }
+    }    
     /* Web development */
     .web-development{
         background: #ffe6ac;
         padding: 10px;
-    }
-    .web-plans{
-        color: white;
-        background: #222;
-        border: none;
-        padding: 10px;
-    }
+    }  
     /* Print */
     .newspaper-stands{
         background: #ffe6ac;
         padding: 10px;
-    }
-    .print{
-        color: white;
-        background: #222;
-        border: none;
-        padding: 10px;
-    } 
+    }  
     /* Our Vision */
-    .vision{
-        background: #222;
+    .vision{    
+        background-color: #222;
         color: white;
-        padding: 15px;
+        padding: 10px;
+        font-size: 18px;    
+        border-color: #c78c06; 
+
     }
     /* Our Team */
     .our-team{
@@ -218,7 +205,9 @@ html{
         border: 1px solid black;
         padding: 15px;
     }
-    
+    .google-map{
+        padding: 15px;
+    }
     footer .container{
         background-color: #222;
         color: #c78c06;
@@ -231,6 +220,7 @@ html{
     Desktop Styles
 ------------------*/
 @media screen and (min-width: 760px){
+
     ul, li{
         display: inline;
         font-size: 20px;
@@ -241,6 +231,16 @@ html{
     }
     .orange-rectangle{
         background-color: #222;
+    }
+    /* .container{
+        display: grid 
+        grid-template-columns: repeat ();
+        grid-template-rows: repeat ();
+        grid-template-areas: 
+        
+        
+        
+        ;*/
     }
 }
     
