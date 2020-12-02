@@ -180,3 +180,16 @@ hr{
     color:#c78c06;
 }
 /* Contact us */
+.contact-us{
+    width: 85%;
+    padding: 15px;
+}
+.message-box .full-name .your-email{
+    width: 85%;
+}
+.send-button{
+    border: none;
+    background: #222;
+    color: #c78c06;
+    font-size: 25px;
+}
