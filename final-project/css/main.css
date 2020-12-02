@@ -144,3 +144,39 @@ padding: 10px;
     border: none;
     padding: 10px;
 }
+/* Web development */
+.web-development{
+    background: #ffe6ac;
+    padding: 10px;
+}
+.web-plans{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 10px;
+}
+/* Print */
+.newspaper-stands{
+    background: #ffe6ac;
+    padding: 10px;
+}
+.print{
+    color: white;
+    background: #222;
+    border: none;
+    padding: 10px;
+} 
+/* Our Vision */
+.vision{
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+/* Our Team */
+.our-team{
+    background: #ffe6ac;
+}
+hr{
+    color:#c78c06;
+}
+/* Contact us */
