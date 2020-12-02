@@ -67,12 +67,17 @@ html{
         padding: 1rem;
     }
     .navigation{
-        background-color: #222;
+        background-color: #222;        
         list-style: none;
+        text-decoration: none;
         padding: 50px;
     }
     .nav-styles{
         text-align: center;
+    }
+    .orange-rectangle{
+        background-color: #c78c06;
+        padding: 2rem;
     }
     ul, li{
         padding: 10px;
@@ -81,11 +86,11 @@ html{
         background: #c78c06;
     }
     li:focus{
-        background: #222;
+        color: #222;
     }
     .search-bar{
         width: 85%;
-        padding: 5px;
+        padding: 10px;
     }
     .im-magnifier{
         background:  #c78c06;
@@ -97,6 +102,9 @@ html{
     h1{
         color: white;
         Font-size: 4rem;
+    }
+    h1, p{
+        color: white;
     }
     .connect-with-us{
         border: none;
@@ -230,6 +238,9 @@ html{
     .search-bar .im-magnifier{
         display: flex;
         flex-direction: row-reverse;
+    }
+    .orange-rectangle{
+        background-color: #222;
     }
 }
     
