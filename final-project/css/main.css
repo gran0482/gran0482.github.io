@@ -55,11 +55,18 @@ table {
 html{
     font-family: 'Open Sans', sans-serif;
 }
-.star-image{
+.star-logo{
     background-color: #c78c06;
+    padding: 1rem;
 }
 .navigation{
     background-color: #222;
     list-style: none;
     padding: 50px;
+}
+.nav-styles{
+    text-align: center;
+}
+ul, li:hover{
+    padding: 10px;
 }
