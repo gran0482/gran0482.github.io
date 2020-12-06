@@ -57,9 +57,8 @@ table {
 --------------*/
 html{
     font-family: 'Open Sans', sans-serif;
-}
-.container{
     max-width: 1200px;
+    margin: auto;
 }
     /* Navigation */
     .star-logo{
@@ -129,6 +128,9 @@ html{
         font-weight: bold;
     }
     /* Our services */
+    .our-services{
+        background-color: #ffe6ac;
+    }
     .button-2{
         color: white;
         background: #222;
@@ -137,34 +139,13 @@ html{
         font-size: 18px;
         width: 100%;
     }
-    .digital-transformation{
-        background: #ffe6ac;
-        padding: 10px;
-    }
     h3{
         font-size: 2rem;
         padding: 15px;
     }
-    /* Marketing */
-    .marketing{
-        background: #ffe6ac;
-        padding: 10px;
+    .images{
+        width: 100%;
     }
-     /* Video */
-    .video-production{
-        background: #ffe6ac;
-        padding: 10px;
-    }    
-    /* Web development */
-    .web-development{
-        background: #ffe6ac;
-        padding: 10px;
-    }  
-    /* Print */
-    .newspaper-stands{
-        background: #ffe6ac;
-        padding: 10px;
-    }  
     /* Our Vision */
     .vision{    
         background-color: #222;
@@ -256,10 +237,19 @@ html{
     .our-services-grid .our-services:nth-child(5){
         grid-area: five;
     }
-    .google-map{
-        display: flex;
-        flex-direction: row-reverse;
+    .our-services{
+        background-color: #ffe6ac;
     }
+    /* Our team */
+    
+    /* Contact us */
+    .name-email{
+        max-width: 1200px;
+    }
+    .message-box{
+        width: 100%
+    }
+    /* Footer */
     footer .conatiner{
         width: 100%;
     }
