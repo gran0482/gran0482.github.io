@@ -120,11 +120,14 @@ html{
     }
     .about-us{
         background: #ffe6ac;
-        padding: 10px;
+        padding: 25px;
+    }
+    .common-area{
+        width: 100%;
     }
     h2{
         font-size: 3rem;
-        padding: 15px;
+        padding: 10px;
         font-weight: bold;
     }
     /* Our services */
@@ -210,13 +213,36 @@ html{
         display: inline;
         font-size: 20px;
     }
+    /* nav */
     .search-bar .im-magnifier{
         display: flex;
         margin-left: auto;
     }
+    /* Banner image */
     .orange-rectangle{
         background-color: #222;
     }
+    /* About Us grid*/
+    .common-area{
+        width: 85%;
+        padding-left: 2rem;
+    }
+    .container-about-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-area: 
+            "one two"
+            "one one"
+        ;
+    }
+    .about-us .container-about-grid:nth-child(1){
+        grid-area: one;
+    }
+    .about-us .container-about-grid:nth-child(2){
+        grid-area: two;
+    }
+    /* our services */
     .our-services-grid{
         display: grid; 
         grid-template-columns: repeat(6, 1fr);
@@ -265,7 +291,6 @@ html{
     .our-team-grid :nth-child(4){
         grid-area: four
     }
-
     /* Contact us */
     .name-email{
         max-width: 1200px;
