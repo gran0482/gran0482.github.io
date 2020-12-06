@@ -153,10 +153,9 @@ html{
     .vision{    
         background-color: #222;
         color: white;
-        padding: 10px;
-        font-size: 18px;    
+        padding: 25px;
+        font-size: 22px;    
         border-color: #c78c06; 
-
     }
     /* Our Team */
     .our-team-grid{
@@ -243,6 +242,9 @@ html{
         grid-area: two;
     }
     /* our services */
+    .our-services{
+        border: 5px solid white;
+    }
     .our-services-grid{
         display: grid; 
         grid-template-columns: repeat(6, 1fr);
@@ -268,6 +270,18 @@ html{
     }
     .our-services{
         background-color: #ffe6ac;    
+    }
+    /* our Vision */
+    .our-vision-container{
+        position: relative;
+        width: ;
+    }
+    .our-vision-text{
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        color: white;
     }
     /* Our team grid*/
     .our-team-grid{
