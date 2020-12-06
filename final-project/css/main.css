@@ -156,11 +156,11 @@ html{
 
     }
     /* Our Team */
-    .our-team{
+    .our-team-grid{
         background: #ffe6ac;
     }
     hr{
-        color:#c78c06;
+        color: solid black;
     }
     /* Contact us */
     .contact-us{
@@ -240,8 +240,16 @@ html{
     .our-services{
         background-color: #ffe6ac;
     }
-    /* Our team */
-    
+    /* Our team grid*/
+    .our-team-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            
+        ;
+    }
+
     /* Contact us */
     .name-email{
         max-width: 1200px;
