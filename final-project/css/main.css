@@ -159,13 +159,16 @@ html{
     .our-team-grid{
         background: #ffe6ac;
     }
+    .bob-john{
+        width: 100%;
+    }
     hr{
         color: solid black;
     }
     /* Contact us */
     .contact-us{
         width: 85%;
-        padding: 15px;
+        padding: 25px;
     }
     .message-box .full-name .your-email{
         width: 85%;
@@ -238,16 +241,29 @@ html{
         grid-area: five;
     }
     .our-services{
-        background-color: #ffe6ac;
+        background-color: #ffe6ac;    
     }
     /* Our team grid*/
     .our-team-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
-            
+        grid-template-areas:   
+            "one two"
+            "three four"
         ;
+    }
+    .our-team-grid :nth-child(1){
+        grid-area: one
+    }
+    .our-team-grid :nth-child(2){
+        grid-area: two
+    }
+    .our-team-grid :nth-child(3){
+        grid-area: three
+    }
+    .our-team-grid :nth-child(4){
+        grid-area: four
     }
 
     /* Contact us */
@@ -257,6 +273,19 @@ html{
     .message-box{
         width: 100%
     }
+    /* Contact us grid */
+    .contact-us-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+            "one two"
+            "three four"
+        ;
+    }
+.hours-operation{
+    padding: 25px;
+}
     /* Footer */
     footer .conatiner{
         width: 100%;
