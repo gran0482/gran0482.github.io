@@ -93,6 +93,8 @@ html{
     }
     .im-magnifier{
         background:  #c78c06;
+        padding: 5px;
+        border: 2px solid red;
     }
     /* Banner image */
     .main-banner{
@@ -223,10 +225,14 @@ html{
     }
     .search-bar .im-magnifier{
         display: flex;
-        margin-left: row-reverse;
+        display: row-reverse;
+    }
+    .search-bar{
+        width: 200px;
     }
     .im-magnifier{
         padding: 5px;
+        border: 2px solid red;
     }
     /* Banner image */
     .orange-rectangle{
