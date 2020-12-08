@@ -133,6 +133,7 @@ html{
     /* Our services */
     .our-services{
         background-color: #ffe6ac;
+        border: 7px solid white;
     }
     .button-2{
         color: white;
@@ -164,16 +165,21 @@ html{
     .bob-john{
         width: 100%;
     }
-    hr{
-        color: solid black;
+    .horizontal{
+        border: none;
+        height: 2px;
+        background: #c78c06;
     }
     /* Contact us */
     .contact-us{
         width: 85%;
         padding: 25px;
     }
-    .message-box .full-name .your-email{
-        width: 85%;
+    .name-email{
+        max-width: 100px;
+    }
+    .message-box{
+        max-width: 85%;
     }
     .send-button{
         border: none;
@@ -274,7 +280,6 @@ html{
     /* our Vision */
     .our-vision-container{
         position: relative;
-        width: ;
     }
     .our-vision-text{
         display: block;
@@ -330,6 +335,12 @@ html{
     }
     .contact-us-grid .contact-us:nth-child(3){
         grid-area: three;
+    }
+    .name-email{
+        max-width: 100px;
+    }
+    .message-box{
+        max-width: 75%;
     }
     .hours-operation{
     padding: 25px;
