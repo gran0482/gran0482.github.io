@@ -63,7 +63,6 @@ html{
     /* Navigation */
     .star-logo{
         background-color: #c78c06;
-        padding: 1rem;
     }
     .navigation{
         background-color: #222;        
@@ -76,7 +75,7 @@ html{
     }
     .orange-rectangle{
         background-color: #c78c06;
-        padding: 8px;
+        padding: 20px;
     }
     ul, li{
         padding: 10px;
@@ -217,10 +216,17 @@ html{
         display: inline;
         font-size: 20px;
     }
-    /* nav */
+    /* navigation */
+    .nav-styles{
+        position: relative;
+        bottom: 85px;
+    }
     .search-bar .im-magnifier{
         display: flex;
-        margin-left: auto;
+        margin-left: row-reverse;
+    }
+    .im-magnifier{
+        padding: 5px;
     }
     /* Banner image */
     .orange-rectangle{
