@@ -206,16 +206,27 @@ html{
         height: 2px;
         background: #c78c06;
     }
+    .word-padding{
+        padding: 10px;
+    }
+    .white{
+        border: 5px solid white;
+    }
     /* Contact us */
     .contact-us{
         width: 85%;
         padding: 25px;
     }
-    .name-email{
-        max-width: 100px;
-    }
+    input[type=text]{ 
+        width: 100%;
+     } 
+     input[type=email]{ 
+        width: 100%;
+     } 
     .message-box{
-        max-width: 85%;
+        max-width: 100%;
+        resize: none;
+        height: 50px;
     }
     .send-button{
         border: none;
@@ -260,7 +271,7 @@ html{
     }
     .search-bar .im-magnifier{
         display: flex;
-        display: row-reverse;
+        flex-direction: row-reverse;
     }
     .search-bar{
         width: 200px;
@@ -380,6 +391,9 @@ html{
     .our-team-grid .our-team:nth-child(4){
         grid-area: four;
     }
+    .word-padding{
+        padding: 10px;
+    }
     /* Contact us */
     .name-email{
         max-width: 1200px;
@@ -406,11 +420,16 @@ html{
     .contact-us-grid .contact-us:nth-child(3){
         grid-area: three;
     }
-    .name-email{
-        max-width: 100px;
-    }
+    input[type=text]{ 
+        width: 100%;
+     } 
+     input[type=email]{ 
+        width: 100%;
+     } 
     .message-box{
-        max-width: 75%;
+        max-width: 100%;
+        resize: none;
+        height: 50px;
     }
     .hours-operation{
     padding: 25px;
