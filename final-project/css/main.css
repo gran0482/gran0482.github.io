@@ -63,6 +63,7 @@ html{
     /* Navigation */
     .star-logo{
         background-color: #c78c06;
+        width: 12%;
     }
     .navigation{
         background-color: #222;        
@@ -188,7 +189,7 @@ html{
         padding-right: 35px;
         color: white;
     }
-    .image{
+    .vision-image{
         position: relative;
         max-height: 255px;
         object-fit: cover;
@@ -352,7 +353,7 @@ html{
         padding-right: 35px;
         color: white;
     }
-    .image{
+    .vision-image{
         position: relative;
         max-height: 255px;
         object-fit: cover;
