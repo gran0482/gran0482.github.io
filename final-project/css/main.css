@@ -92,23 +92,29 @@ html{
         padding: 10px;
     }
     .im-magnifier{
-        background:  #c78c06;
-        padding: 5px;
-        border: 2px solid red;
+        background: #222;
+        color: #c78c06;
+        border: 3px solid red;
+        padding: .5em;
     }
     /* Banner image */
     .main-banner{
         width: 100%;
-        color: aquamarine;
     }
     .banner{
-        background: #222;
+        position: relative;
+        top: 400px;
+        padding: 25px;
+        background: rgba(0, 0, 0, 0.6);
     }
     h1{
         color: white;
         Font-size: 4rem;
         font-weight: bold;
     }   
+    .intro-text{
+        color: white;
+    }
     .connect-with-us{
         border: none;
         background: #c78c06;
@@ -121,7 +127,7 @@ html{
     }
     .about-us{
         background: #ffe6ac;
-        padding: 25px;
+        padding: 25px;    
     }
     .common-area{
         width: 100%;
@@ -146,7 +152,11 @@ html{
     }
     h3{
         font-size: 2rem;
-        padding: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .info{
+        padding-bottom: 10px;
     }
     .images{
         width: 100%;
@@ -156,8 +166,24 @@ html{
         background-color: #222;
         color: white;
         padding: 25px;
-        font-size: 22px;    
+        font-size: 1.5rem;    
         border-color: #c78c06; 
+    }
+    .our-vision, img{
+        width: 100%;
+    }
+    .our-vision-container{
+        position: relative;
+    }
+    .our-vision-text{
+        position: relative;
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        padding-left: 35px;
+        padding-right: 35px;
+        color: white;
     }
     /* Our Team */
     .our-team-grid{
@@ -231,12 +257,21 @@ html{
         width: 200px;
     }
     .im-magnifier{
-        padding: 5px;
-        border: 2px solid red;
-    }
+        background: #222;
+        color: #c78c06;
+        border: 3px solid red;
+        padding: .5em;
+    }        
     /* Banner image */
     .orange-rectangle{
         background-color: #222;
+    }
+    .banner{
+        position: relative;
+        top: 400px;
+        padding: 25px;
+        max-width: 75%;
+        background: rgba(0, 0, 0, 0.6);
     }
     /* About Us grid*/
     .common-area{
@@ -289,15 +324,24 @@ html{
     .our-services{
         background-color: #ffe6ac;    
     }
+    .yellow-box{
+        padding: 10px
+    }
     /* our Vision */
+    .our-vision, img{
+        width: 100%;
+    }
     .our-vision-container{
         position: relative;
     }
     .our-vision-text{
+        position: relative;
         display: block;
         position: absolute;
         top: 30%;
         left: 0%;
+        padding-left: 35px;
+        padding-right: 35px;
         color: white;
     }
     /* Our team grid*/
