@@ -155,6 +155,9 @@ html{
         padding-bottom: 20px;
         padding-top: 20px;
     }
+    .yellow-box{
+        padding: 10px;
+    }
     .info{
         padding-bottom: 10px;
     }
@@ -179,11 +182,16 @@ html{
         position: relative;
         display: block;
         position: absolute;
-        top: 30%;
+        top: 5%;
         left: 0%;
         padding-left: 35px;
         padding-right: 35px;
         color: white;
+    }
+    .image{
+        position: relative;
+        max-height: 255px;
+        object-fit: cover;
     }
     /* Our Team */
     .our-team-grid{
@@ -338,11 +346,16 @@ html{
         position: relative;
         display: block;
         position: absolute;
-        top: 30%;
+        top: 10%;
         left: 0%;
         padding-left: 35px;
         padding-right: 35px;
         color: white;
+    }
+    .image{
+        position: relative;
+        max-height: 255px;
+        object-fit: cover;
     }
     /* Our team grid*/
     .our-team-grid{
