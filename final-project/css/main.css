@@ -96,8 +96,11 @@ html{
     .im-magnifier{
         background: #222;
         color: #c78c06;
-        border: 3px solid red;
         padding: .5em;
+    }
+    .magnify-button{
+        background: #222;
+        border: 3px #c78c06;
     }
     /* Banner image */
     .main-banner{
@@ -109,24 +112,26 @@ html{
     }
     .banner{
         position: absolute;
-        top: 400px;
+        top: 15%;
         padding: 25px;
-        max-width: 75%;
+        max-width: 100%;
         background: rgba(0, 0, 0, 0.6);
     }
     h1{
         color: white;
         Font-size: 4rem;
         font-weight: bold;
+        padding-bottom: 2rem;
     }   
     .intro-text{
         color: white;
+        padding-bottom: 15px; 
     }
     .connect-with-us{
         border: none;
         background: #c78c06;
-        padding: 1rem;
-        font-size: large;
+        padding: 1.5rem;
+        font-size: 1.5rem;
     }
     /* About us */
     h3{
@@ -134,17 +139,27 @@ html{
     }
     .about-us{
         background: #ffe6ac;
-        padding: 25px;    
+        padding: 25px;
     }
     .common-area{
         width: 100%;
+        padding-bottom: 1.5rem;
+    }
+    .paragraph-padding{
+        padding-top: 15px;
+    }
+    .h2-about{
+        padding-bottom: 10px;
+    }
+    /* Our services */
+    .top-padding{
+        padding-top: 3rem;
     }
     h2{
         font-size: 3rem;
         padding: 10px;
         font-weight: bold;
     }
-    /* Our services */
     .our-services{
         background-color: #ffe6ac;
         border: 7px solid white;
@@ -153,9 +168,12 @@ html{
         color: white;
         background: #222;
         border: none;
-        padding: 24px; 
-        font-size: 18px;
-        width: 100%;
+        padding: 20px; 
+        font-size: 20px;
+        width: 40%;
+    }
+    .im-care-right{
+        padding: 10px;
     }
     h3{
         font-size: 2rem;
@@ -172,15 +190,18 @@ html{
         width: 100%;
     }
     /* Our Vision */
-    .vision{    
-        background-color: #222;
+    .our-vision, img{
+        width: 100%;
+    }
+    .vision-paragraph{
+        padding-bottom: 15px;
+    }
+    .vision-button{    
+        background-color: rgba(0, 0, 0, 0.6);
         color: white;
         padding: 25px;
         font-size: 1.5rem;    
         border-color: #c78c06; 
-    }
-    .our-vision, img{
-        width: 100%;
     }
     .our-vision-container{
         position: relative;
@@ -199,8 +220,16 @@ html{
         position: relative;
         max-height: 255px;
         object-fit: cover;
+        padding-top: 15px;
     }
     /* Our Team */
+    .h2-team{
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+    h4{
+        font-weight: bold;
+    }
     .our-team-grid{
         background: #ffe6ac;
     }
@@ -273,20 +302,21 @@ html{
     /* navigation */
     .navigation{
         display: flex;
+        flex-direction: column;
     }
     .nav-styles{
         position: relative;
         bottom: 85px;
     }
     .search-bar{
-        width: 200px;
+        width: 50px;
     }
     .im-magnifier{
-        background: #222;
         color: #c78c06;
-        border: 3px solid red;
-        padding: .5em;
     }        
+    .magnify-button{
+        background: #222;
+    }
     /* Banner image */
     .orange-rectangle{
         background-color: #222;
@@ -374,8 +404,7 @@ html{
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:   
             "one two"
-            "four three"
-        ;
+            "four three";
     }
     .our-team-grid .our-team:nth-child(1){
         grid-area: one;
@@ -406,8 +435,7 @@ html{
         grid-template-rows: repeat(1, 1fr);
         grid-template-areas: 
             "one two"
-            "three three"
-        ;
+            "three three";
     }
     .contact-us-grid .contact-us:nth-child(1){
         grid-area: one;
