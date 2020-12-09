@@ -70,6 +70,7 @@ html{
         list-style: none;
         text-decoration: none;
         padding: 50px;
+        vertical-align: bottom ;
     }
     .nav-styles{
         text-align: center;
@@ -89,8 +90,8 @@ html{
         color: #222;
     }
     .search-bar{
-        width: 85%;
-        padding: 10px;
+        width: 25%;
+        padding: 15px;
     }
     .im-magnifier{
         background: #222;
@@ -101,11 +102,16 @@ html{
     /* Banner image */
     .main-banner{
         width: 100%;
+        vertical-align: top;
+    }
+    .banner-conatiner{
+        position: relative;
     }
     .banner{
-        position: relative;
+        position: absolute;
         top: 400px;
         padding: 25px;
+        max-width: 75%;
         background: rgba(0, 0, 0, 0.6);
     }
     h1{
@@ -265,13 +271,12 @@ html{
         font-size: 20px;
     }
     /* navigation */
+    .navigation{
+        display: flex;
+    }
     .nav-styles{
         position: relative;
         bottom: 85px;
-    }
-    .search-bar .im-magnifier{
-        display: flex;
-        flex-direction: row-reverse;
     }
     .search-bar{
         width: 200px;
@@ -285,14 +290,7 @@ html{
     /* Banner image */
     .orange-rectangle{
         background-color: #222;
-    }
-    .banner{
-        position: relative;
-        top: 400px;
-        padding: 25px;
-        max-width: 75%;
-        background: rgba(0, 0, 0, 0.6);
-    }
+    }    
     /* About Us grid*/
     .common-area{
         width: 85%;
@@ -421,7 +419,7 @@ html{
         grid-area: three;
     }
     input[type=text]{ 
-        width: 100%;
+        width: 80%;
      } 
      input[type=email]{ 
         width: 100%;
