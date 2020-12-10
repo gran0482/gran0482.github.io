@@ -89,18 +89,26 @@ html{
     li:focus{
         color: #222;
     }
+    .nav-form{
+        display: flex;
+        flex-direction: row;
+    }
     .search-bar{
-        width: 25%;
+        width: 85%;
         padding: 15px;
+        border-radius: 3px;
+    }
+    ::placeholder{
+        font-size: 25px;
     }
     .im-magnifier{
         background: #222;
         color: #c78c06;
-        padding: .5em;
+        padding: 7px;
     }
     .magnify-button{
         background: #222;
-        border: 3px #c78c06;
+        border: 3px solid red;
     }
     /* Banner image */
     .main-banner{
