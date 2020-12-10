@@ -496,8 +496,8 @@ html{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-template-areas: 
-            "one two"
-            "three three" ;
+            "one three"
+            "two two" ;
     }
     .contact-us-grid .contact-us:nth-child(1){
         grid-area: one;
@@ -509,15 +509,15 @@ html{
         grid-area: three;
     }
     input[type=text]{ 
-        width: 80%;
+        width: 100%;
      } 
      input[type=email]{ 
         width: 100%;
      } 
     .message-box{
-        max-width: 100%;
+        width: 100%;
         resize: none;
-        height: 50px;
+        height: 150px;
     }
     .hours-operation{
         padding: 25px;
