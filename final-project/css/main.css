@@ -263,22 +263,41 @@ html{
         width: 85%;
         padding: 25px;
     }
+    .message-padding{
+        padding-bottom: 10px;
+    }
+    .text-padding{
+        padding-bottom: 5px;
+    }
     input[type=text]{ 
         width: 100%;
+        height: 30px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0);
      } 
      input[type=email]{ 
         width: 100%;
+        height: 30px;
+        border-radius: 3px;
+        border-color: rgba(0, 0, 0);
      } 
     .message-box{
-        max-width: 100%;
+        width: 100%;
         resize: none;
-        height: 50px;
+        height: 150px;
+        border-radius: 3px;
     }
     .send-button{
         border: none;
         background: #222;
         color: #c78c06;
         font-size: 25px;
+    }
+    .button-padding{
+        padding-top: 15px;
+    }
+    .hours-operation{
+        width: 100%;
     }
     th{
         background-color: #ffe6ac;
@@ -293,7 +312,9 @@ html{
     }
     .google-map{
         padding: 15px;
+        width: 100%;
     }
+    /* Footer */
     footer .container{
         background-color: #222;
         color: #c78c06;
@@ -476,7 +497,7 @@ html{
         grid-template-rows: repeat(1, 1fr);
         grid-template-areas: 
             "one two"
-            "three three";
+            "three three" ;
     }
     .contact-us-grid .contact-us:nth-child(1){
         grid-area: one;
@@ -499,8 +520,8 @@ html{
         height: 50px;
     }
     .hours-operation{
-    padding: 25px;
-}
+        padding: 25px;
+    }
     /* Footer */
     footer .conatiner{
         width: 100%;
