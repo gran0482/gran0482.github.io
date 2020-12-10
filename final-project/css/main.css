@@ -60,6 +60,9 @@ html{
     max-width: 1200px;
     margin: auto;
 }
+.our-services.our-team{
+    max-width: 1200px;
+}
     /* Navigation */
     .star-logo{
         background-color: #c78c06;
@@ -107,9 +110,8 @@ html{
         padding: 7px;
     }
     .magnify-button{
-        background: #222;
-        border: 3px solid red;
-    }
+        background: #222;        
+    }    
     /* Banner image */
     .main-banner{
         width: 100%;
@@ -336,6 +338,19 @@ html{
         display: flex;
         flex-direction: column;
     }
+    .navigation-grid{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows:repeat(1, 1fr);
+        grid-template-areas: 
+            "one two";
+    }
+    .navigation-grid .nav-grid:nth-child(1){
+        grid-area: one;
+    }
+    .navigation-grid .nav-grid:nth-child(2){
+        grid-area: two;
+    }
     .nav-styles{
         position: relative;
         bottom: 85px;
@@ -526,5 +541,4 @@ html{
     footer .conatiner{
         width: 100%;
     }
-}
-    
+}   
