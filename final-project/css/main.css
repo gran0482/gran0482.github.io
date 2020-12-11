@@ -275,19 +275,19 @@ html{
         padding-bottom: 5px;
     }
     input[type=text]{ 
-        width: 100%;
+        width: 120%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
      input[type=email]{ 
-        width: 100%;
+        width: 120%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
     .message-box{
-        width: 100%;
+        width: 120%;
         resize: none;
         height: 150px;
         border-radius: 3px;
