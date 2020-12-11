@@ -275,19 +275,19 @@ html{
         padding-bottom: 5px;
     }
     input[type=text]{ 
-        width: 122%;
+        width: 125%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
      input[type=email]{ 
-        width: 122%;
+        width: 125%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
     .message-box{
-        width: 122%;
+        width: 125%;
         resize: none;
         height: 150px;
         border-radius: 3px;
@@ -309,14 +309,14 @@ html{
     }
     table{
         border-collapse: collapse;
-        width: 122%;
+        width: 126%;
     }
     td, th{
         border: 1px solid black;
         padding: 15px;
     }
     .google-map{
-        width: 120%;
+        width: 130%;
     }
     /* Footer */
     footer .container{
@@ -355,10 +355,17 @@ html{
     }
     .nav-styles{
         position: relative;
+        left: 45%;
         bottom: 85px;
     }
-    .search-bar{
-        width: 50px;
+    input#name.search-bar{
+        position: relative;
+        width: 35%;
+    }
+    form.nav-form{
+        position: relative;
+        left: 0%;
+        bottom: 15px
     }
     .im-magnifier{
         color: #c78c06;
@@ -532,22 +539,23 @@ html{
         grid-area: three;
     }
     input[type=text]{ 
-        width: 120%;
+        width: 155%;
      } 
      input[type=email]{ 
-        width: 120%;
+        width: 155%;
      } 
     .message-box{
-        width: 150%;
+        width: 155%;
         resize: none;
         height: 150px;
     }
-    .map{
-        left: 25%;
-        right: 25%;
+    section.google-map{
+        position: relative;
+        left: 30%;
     }
-    .hours-operation{
-        padding: 25px;
+    table{
+        border-collapse: collapse;
+        width: 134%;
     }
     /* Footer */
     footer .conatiner{
