@@ -266,7 +266,7 @@ html{
     /* Contact us */
     .contact-us{
         width: 85%;
-        padding: 25px;
+        padding: 10px;
     }
     .message-padding{
         padding-bottom: 10px;
@@ -275,19 +275,19 @@ html{
         padding-bottom: 5px;
     }
     input[type=text]{ 
-        width: 120%;
+        width: 122%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
      input[type=email]{ 
-        width: 120%;
+        width: 122%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
     .message-box{
-        width: 120%;
+        width: 122%;
         resize: none;
         height: 150px;
         border-radius: 3px;
@@ -309,14 +309,14 @@ html{
     }
     table{
         border-collapse: collapse;
-        width: 100%;
+        width: 122%;
     }
     td, th{
         border: 1px solid black;
         padding: 15px;
     }
     .google-map{
-        width: 100%;
+        width: 120%;
     }
     /* Footer */
     footer .container{
@@ -500,6 +500,9 @@ html{
     .word-padding{
         padding: 10px;
     }
+    .team-divide{
+        border: none;
+    }
     /* Contact us */
     .name-email{
         max-width: 1200px;
@@ -507,7 +510,7 @@ html{
     .message-box{
         width: 100%
     }
-    .team-divide{
+    .our-team{
         border: none;
     }
     /* Contact us grid */
@@ -529,15 +532,19 @@ html{
         grid-area: three;
     }
     input[type=text]{ 
-        width: 100%;
+        width: 120%;
      } 
      input[type=email]{ 
-        width: 100%;
+        width: 120%;
      } 
     .message-box{
-        width: 100%;
+        width: 150%;
         resize: none;
         height: 150px;
+    }
+    .map{
+        left: 25%;
+        right: 25%;
     }
     .hours-operation{
         padding: 25px;
