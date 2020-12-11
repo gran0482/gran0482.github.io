@@ -98,11 +98,11 @@ html{
     }
     .search-bar{
         width: 85%;
-        padding: 15px;
+        padding: 10px;
         border-radius: 3px;
     }
     ::placeholder{
-        font-size: 25px;
+        font-size: 20px;
     }
     .im-magnifier{
         background: #222;
@@ -112,6 +112,9 @@ html{
     .magnify-button{
         background: #222;        
     }    
+    button.magnify-button{
+        border: 2px solid rgb(199, 140, 6);
+    }
     /* Banner image */
     .main-banner{
         width: 100%;
