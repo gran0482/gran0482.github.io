@@ -60,27 +60,24 @@ html{
     max-width: 1200px;
     margin: auto;
 }
-.our-services.our-team{
-    max-width: 1200px;
-}
     /* Navigation */
     .star-logo{
         background-color: #c78c06;
         width: 12%;
     }
+    .orange-rectangle{
+        background-color: #c78c06;
+        padding: 20px;
+    }
     .navigation{
         background-color: #222;        
         list-style: none;
         text-decoration: none;
-        padding: 50px;
+        padding: 20px;
         vertical-align: bottom ;
     }
     .nav-styles{
         text-align: center;
-    }
-    .orange-rectangle{
-        background-color: #c78c06;
-        padding: 20px;
     }
     ul, li{
         padding: 10px;
@@ -228,7 +225,7 @@ html{
         position: absolute;
         top: 5%;
         left: 0%;
-        padding-left: 35px;
+        padding-left: 20px;
         padding-right: 35px;
         color: white;
     }
@@ -248,6 +245,9 @@ html{
     }
     .our-team-grid{
         background: #ffe6ac;
+    }
+    .team-divide{
+        border: 7px solid white;
     }
     .bob-john{
         width: 100%;
@@ -316,7 +316,6 @@ html{
         padding: 15px;
     }
     .google-map{
-        padding: 15px;
         width: 100%;
     }
     /* Footer */
@@ -507,6 +506,9 @@ html{
     }
     .message-box{
         width: 100%
+    }
+    .team-divide{
+        border: none;
     }
     /* Contact us grid */
     .contact-us-grid{
