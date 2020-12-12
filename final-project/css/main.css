@@ -268,6 +268,9 @@ html{
         width: 85%;
         padding: 10px;
     }
+    .contact-us-text{
+        padding-left: 9px;
+    }
     .message-padding{
         padding-bottom: 10px;
     }
@@ -426,9 +429,6 @@ html{
         grid-area: two;
     }
     /* our services */
-    .our-services{
-        border: 5px solid white;
-    }
     .our-services-grid{
         display: grid; 
         grid-template-columns: repeat(6, 1fr);
@@ -455,11 +455,14 @@ html{
     .our-services{
         background-color: #ffe6ac;    
     }
+    .our-services{
+        border: 5px solid white;
+    }
     .button-2{
         width: 100%;
     }
     .yellow-box{
-        padding: 10px
+        padding: 10px;
     }
     /* our Vision */
     .our-vision, img{
@@ -549,7 +552,7 @@ html{
         resize: none;
         height: 150px;
     }
-    section.google-map{
+    .google-map{
         position: relative;
         left: 30%;
     }
