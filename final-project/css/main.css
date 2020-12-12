@@ -80,8 +80,13 @@ html{
         text-align: center;
     }
     ul, li{
-        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
+    /* .nav-styles, ul, li:nth-child(1){
+        padding-top: 0px;
+        
+    } */
     li:hover{
         background: #c78c06;
         padding: 15px;
@@ -122,54 +127,61 @@ html{
     }
     .banner{
         position: absolute;
-        top: 15%;
-        padding: 25px;
+        top: 10%;
+        padding: 15px;
         max-width: 100%;
-        height: 70%;
+        height: 73%;
         background: rgba(0, 0, 0, 0.6);
     }
     h1{
         color: white;
-        Font-size: 4rem;
+        font-size: 4rem;
+        line-height: 1.5;
         font-weight: bold;
         padding-top: 15px;
-        padding-bottom: 2rem;
+        padding-bottom: 10px;
     }   
+    /* p{
+        font-size: rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    } */
     .intro-text{
         color: white;
-        padding-top: 15px;
-        padding-bottom: 1.5rem; 
-    }
+        font-size: 13px;
+        line-height: 1.6;
+        padding-bottom: 10px; 
+    } 
     .connect-with-us{
         border: none;
         background: #c78c06;
-        padding: 1.5rem;
-        font-size: 1.5rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
     }
     /* About us */
-    h3{
-        font-weight: bold;
-    }
     .about-us{
         background: #ffe6ac;
-        padding: 25px;
+        padding: 13px;
     }
     .common-area{
         width: 100%;
         padding-bottom: 1.5rem;
     }
-    .paragraph-padding{
-        padding-top: 15px;
+    .about-us-text{
+        font-size: 13px;
+        line-height: 1.6;
+        padding-bottom: 10px;
     }
     .h2-about{
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        padding-left: 2px;
     }
     /* Our services */
     .top-padding{
         padding-top: 3rem;
     }
     h2{
-        font-size: 3rem;
+        font-size: 2.7rem;
         padding: 10px;
         font-weight: bold;
     }
@@ -181,23 +193,30 @@ html{
         color: white;
         background: #222;
         border: none;
-        padding: 20px; 
-        font-size: 20px;
-        width: 40%;
+        padding: 20px;
+        padding-left: 15px; 
+        font-size: 1.2rem;
+        width: 35%;
     }
     .im-care-right{
         padding: 10px;
     }
     h3{
-        font-size: 2rem;
+        font-size: 1.85rem;
         padding-bottom: 20px;
         padding-top: 20px;
+        font-weight: bold;
+    }
+    .our-team-h3{
+        padding-bottom: 10px;
     }
     .yellow-box{
         padding: 10px;
     }
     .info{
         padding-bottom: 10px;
+        line-height: 1.6;
+        font-size: 13px;
     }
     .images{
         width: 100%;
@@ -208,12 +227,14 @@ html{
     }
     .vision-paragraph{
         padding-bottom: 15px;
+        line-height: 1.6;
+        font-size: 13px;
     }
     .vision-button{    
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
-        padding: 25px;
-        font-size: 1.5rem;    
+        padding: 20px;
+        font-size: 1.2rem;    
         border-color: #c78c06; 
     }
     .our-vision-container{
@@ -225,6 +246,7 @@ html{
         position: absolute;
         top: 5%;
         left: 0%;
+        padding-top: 10px;
         padding-left: 20px;
         padding-right: 35px;
         color: white;
@@ -242,6 +264,12 @@ html{
     }
     h4{
         font-weight: bold;
+        font-size: .9rem;
+    }
+    .our-team-text{
+        line-height: 1.6;
+        font-size: 13px;
+        padding-bottom: 10px;
     }
     .our-team-grid{
         background: #ffe6ac;
@@ -269,6 +297,7 @@ html{
         padding: 10px;
     }
     .contact-us-text{
+        padding-top: 50px;
         padding-left: 9px;
     }
     .message-padding{
@@ -276,6 +305,9 @@ html{
     }
     .text-padding{
         padding-bottom: 5px;
+    }
+    label{
+        font-size: 13px;
     }
     input[type=text]{ 
         width: 125%;
@@ -299,12 +331,13 @@ html{
         border: none;
         background: #222;
         color: #c78c06;
-        font-size: 25px;
+        font-size: 20px;
     }
     .button-padding{
-        padding-top: 15px;
+        padding-top: 5px;
     }
     .hours-operation{
+        padding-top: 4px;
         width: 100%;
     }
     th{
@@ -317,6 +350,10 @@ html{
     td, th{
         border: 1px solid black;
         padding: 15px;
+        font-size: 13px;
+    }
+    .contact-us-h3{
+        padding-top: 4px;
     }
     .google-map{
         width: 130%;
@@ -329,6 +366,9 @@ html{
     }
     footer .container p{
         padding: 10px;
+    }
+    .footer-size{
+        font-size: 13px;
     }
 /* ----------------
     Desktop Styles
@@ -463,6 +503,10 @@ html{
     }
     .yellow-box{
         padding: 10px;
+    }
+    .bottom{
+        position: relative;
+
     }
     /* our Vision */
     .our-vision, img{
