@@ -141,11 +141,6 @@ html{
         padding-top: 15px;
         padding-bottom: 10px;
     }   
-    /* p{
-        font-size: rem;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    } */
     .intro-text{
         color: white;
         font-size: 13px;
@@ -241,7 +236,6 @@ html{
         position: relative;
     }
     .our-vision-text{
-        position: relative;
         display: block;
         position: absolute;
         top: 5%;
@@ -273,9 +267,6 @@ html{
     }
     .our-team-grid{
         background: #ffe6ac;
-    }
-    .team-divide{
-        border: 7px solid white;
     }
     .bob-john{
         width: 100%;
@@ -310,19 +301,19 @@ html{
         font-size: 13px;
     }
     input[type=text]{ 
-        width: 125%;
+        width: 113%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
      input[type=email]{ 
-        width: 125%;
+        width: 113%;
         height: 30px;
         border-radius: 3px;
         border-color: rgba(0, 0, 0);
      } 
     .message-box{
-        width: 125%;
+        width: 113%;
         resize: none;
         height: 150px;
         border-radius: 3px;
@@ -338,7 +329,7 @@ html{
     }
     .hours-operation{
         padding-top: 4px;
-        width: 100%;
+        width: 90%;
     }
     th{
         background-color: #ffe6ac;
@@ -356,7 +347,8 @@ html{
         padding-top: 4px;
     }
     .google-map{
-        width: 130%;
+        position: relative;
+        width: 200%;
     }
     /* Footer */
     footer .container{
@@ -382,13 +374,13 @@ html{
     .navigation{
         display: flex;
         flex-direction: column;
-    }
+    } 
     .navigation-grid{
         display: grid;
-        grid-template-columns:repeat(2, 1fr);
+        grid-template-columns:repeat(5, 1fr);
         grid-template-rows:repeat(1, 1fr);
         grid-template-areas: 
-            "one two";
+            "one two three four five";
     }
     .navigation-grid .nav-grid:nth-child(1){
         grid-area: one;
@@ -396,14 +388,23 @@ html{
     .navigation-grid .nav-grid:nth-child(2){
         grid-area: two;
     }
-    .nav-styles{
-        position: relative;
-        left: 45%;
-        bottom: 85px;
+    .navigation-grid .nav-grid:nth-child(3){
+        grid-area: three;
     }
+    .navigation-grid .nav-grid:nth-child(4){
+        grid-area: four;
+    }
+    .navigation-grid .nav-grid:nth-child(5){
+        grid-area: five;
+    }
+     .nav-styles{
+        position: relative;
+        left: 150%;
+        bottom: 85px;
+    } 
     input#name.search-bar{
         position: relative;
-        width: 35%;
+        width: 75%;
     }
     form.nav-form{
         position: relative;
@@ -420,19 +421,16 @@ html{
     .orange-rectangle{
         background-color: #222;
     }    
-    .banner-conatiner{
-        position: relative;
-    }
     .banner{
         position: absolute;
-        top: 15%;
+        top: 60%;
         padding: 25px;
         width: 1200px;
         height: 70%;
         top: 10%;
         left: 5%;
         right: 5%;
-    }
+    } 
     h1{
         Font-size: 6rem;
         padding-top: 3rem;
@@ -469,44 +467,53 @@ html{
         grid-area: two;
     }
     /* our services */
-    .our-services-grid{
+    .services{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .our-services-grid-1{
         display: grid; 
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-template-areas: 
-            "one one one two two two"
-            "three three four four five five";
+            "one two";
      }
-    .our-services-grid .our-services:nth-child(1){
+    .our-services-grid-1 .our-services-1:nth-child(1){
         grid-area: one;
     }
-    .our-services-grid .our-services:nth-child(2){
+    .our-services-grid-1 .our-services-1:nth-child(2){
         grid-area: two;
     }
-    .our-services-grid .our-services:nth-child(3){
+    .our-services-1{
+        background-color: #ffe6ac;
+        border: 5px solid white;    
+    }
+    /* grid-2 */
+    .our-services-grid-2{
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+            "one two three";
+     }
+    .our-services-grid-2 .our-services-2:nth-child(1){
+        grid-area: one;
+    }
+    .our-services-grid-2 .our-services-2:nth-child(2){
+        grid-area: two;
+    }
+    .our-services-grid-2 .our-services-2:nth-child(3){
         grid-area: three;
     }
-    .our-services-grid .our-services:nth-child(4){
-        grid-area: four;
-    }
-    .our-services-grid .our-services:nth-child(5){
-        grid-area: five;
-    }
-    .our-services{
-        background-color: #ffe6ac;    
-    }
-    .our-services{
-        border: 5px solid white;
+    .our-services-2{
+        background-color: #ffe6ac;
+        border: 5px solid white;    
     }
     .button-2{
         width: 100%;
     }
     .yellow-box{
         padding: 10px;
-    }
-    .bottom{
-        position: relative;
-
     }
     /* our Vision */
     .our-vision, img{
@@ -531,6 +538,10 @@ html{
         object-fit: cover;
     }
     /* Our team grid*/
+    .team{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .our-team-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -564,10 +575,11 @@ html{
     .message-box{
         width: 100%
     }
-    .our-team{
-        border: none;
-    }
     /* Contact us grid */
+    .contact-us-1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .contact-us-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -586,23 +598,23 @@ html{
         grid-area: three;
     }
     input[type=text]{ 
-        width: 155%;
+        width: 115%;
      } 
      input[type=email]{ 
-        width: 155%;
+        width: 115%;
      } 
     .message-box{
-        width: 155%;
+        width: 115%;
         resize: none;
         height: 150px;
     }
     .google-map{
         position: relative;
-        left: 30%;
+        left: 1%;
     }
     table{
         border-collapse: collapse;
-        width: 134%;
+        width: 129%;
     }
     /* Footer */
     footer .conatiner{
