@@ -77,11 +77,11 @@ html{
     .navigation-block a:hover{
         background: #c78c06;
         color:black;
-        padding-left: 275px;
-        padding-right: 275px;
+        padding-left: 225px;
+        padding-right: 225px;
     }
     .menu-center{
-        font-size: 20px;
+        font-size: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
         color: #c78c06;
@@ -142,7 +142,7 @@ html{
     }
     h1{
         color: white;
-        font-size: 4rem;
+        font-size: 3.2rem;
         line-height: 1.5;
         font-weight: bold;
         padding-top: 15px;
@@ -157,8 +157,8 @@ html{
     .connect-with-us{
         border: none;
         background: #c78c06;
-        padding: 1.2rem;
-        font-size: 1.2rem;
+        padding: .8rem;
+        font-size: 1rem;
     }
     /* About us */
     .about-us{
@@ -170,7 +170,7 @@ html{
         padding-bottom: 1.5rem;
     }
     .about-us-text{
-        font-size: 13px;
+        font-size: 11px;
         line-height: 1.6;
         padding-bottom: 10px;
     }
@@ -183,7 +183,7 @@ html{
         padding-top: 3rem;
     }
     h2{
-        font-size: 2.7rem;
+        font-size: 2.3rem;
         padding: 10px;
         font-weight: bold;
     }
@@ -199,16 +199,15 @@ html{
         color: white;
         background: #222;
         border: none;
-        padding: 20px;
-        padding-left: 15px; 
-        font-size: 1.2rem;
-        width: 35%;
+        padding: 15px;
+        font-size: 1.1rem;
+        width: 40%;
     }
     .im-care-right{
         padding: 10px;
     }
     h3{
-        font-size: 1.85rem;
+        font-size: 1.6rem;
         padding-bottom: 20px;
         padding-top: 20px;
         font-weight: bold;
@@ -222,10 +221,10 @@ html{
     .info{
         padding-bottom: 10px;
         line-height: 1.6;
-        font-size: 13px;
+        font-size: 11px;
     }
     .info-2{
-        font-size: 13px;
+        font-size: 10px;
         line-height: 1.6;
         padding-bottom: 30px;
     }
@@ -239,13 +238,13 @@ html{
     .vision-paragraph{
         padding-bottom: 15px;
         line-height: 1.6;
-        font-size: 13px;
+        font-size: 11px;
     }
     .vision-button{    
         background-color: rgba(0, 0, 0, 0.6);
         color: white;
-        padding: 20px;
-        font-size: 1.2rem;    
+        padding: 15px;
+        font-size: 1rem;    
         border-color: #c78c06; 
     }
     .our-vision-container{
@@ -278,7 +277,7 @@ html{
     }
     .our-team-text{
         line-height: 1.6;
-        font-size: 13px;
+        font-size: 11px;
         padding-bottom: 10px;
     }
     .our-team-grid{
