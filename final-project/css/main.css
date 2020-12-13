@@ -85,7 +85,7 @@ html{
     }
     li:hover{
         background: #c78c06;
-        padding: 15px;
+        padding: 20px;
     }
     li:focus{
         color: #222;
