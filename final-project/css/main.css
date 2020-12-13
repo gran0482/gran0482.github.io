@@ -407,13 +407,35 @@ html{
         left: 150%;
         bottom: 85px;
     } 
+    .home{
+        position: relative;
+        right: 50%;
+    }
+    .about{
+        position: relative;
+        right: 23%;
+    }
+    .services-nav{
+        position: relative;
+        left: 5%;
+    }
+    .team-nav{
+        position: relative;
+        left: 110%;
+        bottom: 20px;
+    }
+    .contact{
+        position: relative;
+        left: 135%;
+        bottom: 20px;
+    }
     input#name.search-bar{
         position: relative;
-        width: 75%;
+        width: 70%;
     }
     form.nav-form{
         position: relative;
-        left: 0%;
+        left: 145%;
         bottom: 15px
     }
     .im-magnifier{
