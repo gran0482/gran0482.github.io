@@ -420,6 +420,9 @@ html{
         width: 100px;
     
     }
+    .navbar, a:hover{
+        background: lightblue;
+    }
     /* .home{
         position: relative;
         right: 50%;
