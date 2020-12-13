@@ -387,7 +387,7 @@ html{
         grid-template-areas: 
             "one two three four five";
     }
-    .navigation-grid .nav-grid:nth-child(1){
+    .navigation-grid .nav-grid:hover:nth-child(1){
         grid-area: one;
     }
     .navigation-grid .nav-grid:nth-child(2){
@@ -401,13 +401,27 @@ html{
     }
     .navigation-grid .nav-grid:nth-child(5){
         grid-area: five;
-    }
+    } 
      .nav-styles{
         position: relative;
         left: 150%;
         bottom: 85px;
     } 
-    .home{
+    .navbar, a{
+        display: flex;
+        flex-direction: row;
+        float: left;
+        position: relative;
+        right: 38%;
+        bottom: 20px;
+        padding: 12px;
+        color: white;
+        font-size: 16px;
+        width: 100px;
+        text-align: center;
+    
+    }
+    /* .home{
         position: relative;
         right: 50%;
     }
@@ -428,7 +442,7 @@ html{
         position: relative;
         left: 135%;
         bottom: 20px;
-    }
+    }  */
     input#name.search-bar{
         position: relative;
         width: 70%;
