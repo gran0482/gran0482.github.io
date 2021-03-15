@@ -52,3 +52,204 @@ table {
 html{
     font-family: 'Open Sans', sans-serif;
 }
+:root{
+	--primary-color: #393E41;
+	--secondadry-color: #119DA4;
+	--text-color: #D3D0CB;;
+	}
+ /*--------------------------------------------
+             Mobile Styles - Landing
+ -----------------------------------------------*/
+/* Movile styles for landing page */
+.background-color{
+    background-color: var(--primary-color);
+}
+.profile-pic{
+    width: 100%;
+    height: auto;
+}
+.hello, .landingpage-intro{
+    color: var(--text-color);
+    text-align: center;
+}
+.hello{
+    font-size: 4rem;
+}
+.landingpage-intro{
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.welcome{
+    background-color: var(--secondadry-color);
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px ;
+    border-radius: 55px;
+    border: none;
+}
+.welcome-color{
+    color: var(--text-color);
+    text-decoration: none;
+}
+/*--------------------------------------------
+             Mobile Styles - Home
+ -----------------------------------------------*/
+.logo{
+    margin-left: 60px;
+}
+.navbar-toggler, .nav-item{
+    background-color: var(--text-color);
+}
+.helicopter-image{
+    height: 375px;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 50px;
+}
+.home-intro{
+    margin-left: 95px;
+}
+.camera{
+    height: 275px;
+    width: 275px;
+    object-fit: cover;
+}
+.banner{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.title{
+    color: var(--secondadry-color);
+    font-size: 4rem;
+}
+.button-home{
+    border: none;
+    background-color: transparent;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+/* inner button styles */
+.about-me{
+    background-color: var(--primary-color);
+    color: var(--secondadry-color);
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px ;
+    border-radius: 55px;
+    border: none;
+    text-decoration: none;
+}
+.about-text{
+    padding-right: 120px;
+}
+.banner{
+    height: 350px;
+}
+.banner-text{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    line-height: 45px;
+    font-size: 2rem;
+}
+.second-heading{
+    color: var(--secondadry-color);
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 128px;
+}
+.home-favourites{
+    height: 274px;
+    width: 274px;
+    object-fit: cover;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.favorite-section{
+    margin-bottom: 25px;
+}
+/* Footer styles for all the pages */
+footer{
+    background-color: var(--primary-color);
+    height: 150px;
+}
+.socialmedia-icons{
+    fill: aqua;
+}
+.footer-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.link-color{
+    color: var(--text-color);
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.socialmedia-icons{
+    max-width: 75px;
+    padding-left: 30px;
+    padding-top: 45px;
+    display: inline;
+    padding-top: 30px;
+}
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--text-color);
+    padding-right: 30px;
+    padding-top: 20px;
+}
+/*--------------------------------------------
+             Mobile Styles - About
+ -----------------------------------------------*/
+ h1.title{
+     margin-left: 100px;
+     margin-top: 30px;
+ }
+ p.about-text{
+     text-align: center;
+     margin-left: 65px;
+     margin-bottom: 45px;
+     width: 100%;
+     line-height: 20px;
+ }
+ .banner-about{
+     height: 500px;
+ }
+ .aboutme{
+    font-size: 1.5rem;
+    line-height: 40px;
+ }
+ .outside-downlaod{
+     border: none;
+     background-color: var(--secondadry-color);
+     font-size: 2rem;
+     margin-left: 120px;
+     margin-top: 30px;
+     margin-bottom: 100px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 55px;
+     padding-right: 55px ;
+     border-radius: 55px;
+ }
+ .download{
+     border: none;
+     text-decoration: none;
+     color: white;
+ }
