@@ -124,7 +124,7 @@ html{
     background-color: var(--primary-color);
     color: var(--text-color);
 }
-.title{
+.title-home{
     color: var(--secondadry-color);
     font-size: 4rem;
 }
@@ -149,8 +149,9 @@ html{
     border: none;
     text-decoration: none;
 }
-.about-text{
+.about-text-home{
     padding-right: 120px;
+    text-align: center;
 }
 .banner{
     height: 350px;
@@ -218,18 +219,22 @@ footer{
              Mobile Styles - About
  -----------------------------------------------*/
  h1.title{
+     color: var(--secondadry-color);
+     font-size: 4rem;
+     font-weight: 500;
      margin-left: 100px;
      margin-top: 30px;
  }
  p.about-text{
      text-align: center;
-     margin-left: 65px;
+     margin-left: 30px;
+     padding-right: 35px;
      margin-bottom: 45px;
-     width: 100%;
-     line-height: 20px;
+     line-height: 25px;
  }
  .banner-about{
      height: 500px;
+     text-align: center;
  }
  .aboutme{
     font-size: 1.5rem;
@@ -239,7 +244,7 @@ footer{
      border: none;
      background-color: var(--secondadry-color);
      font-size: 2rem;
-     margin-left: 120px;
+     margin-left: 10px; 
      margin-top: 30px;
      margin-bottom: 100px;
      padding-top: 15px;
@@ -253,3 +258,24 @@ footer{
      text-decoration: none;
      color: white;
  }
+ /* Making sure the images for both photography and the artwork are the same size */
+.photograph-images{
+    height: 285px;
+    width: 285px;
+    object-fit: cover;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.digital{
+    height: 285px;
+    width: 285px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.digital{
+    background-color: blue;
+    padding-bottom: 50px;
+}
+.second-heading{
+    margin-left: 115px;
+}
