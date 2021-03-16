@@ -57,6 +57,21 @@ html{
 	--secondadry-color: #119DA4;
 	--text-color: #D3D0CB;;
 	}
+
+a{
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav{
+    color: var(--secondadry-color);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--text-color);
+    font-size: 1.75rem;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--secondadry-color);
+}
  /*--------------------------------------------
              Mobile Styles - Landing
  -----------------------------------------------*/
@@ -101,9 +116,9 @@ html{
              Mobile Styles - Home
  -----------------------------------------------*/
 .logo{
-    margin-left: 60px;
+    margin-left: 75px;
 }
-.navbar-toggler, .nav-item{
+.navbar-toggler{
     background-color: var(--text-color);
 }
 .helicopter-image{
@@ -113,7 +128,7 @@ html{
     padding-bottom: 50px;
 }
 .home-intro{
-    margin-left: 95px;
+    margin-left: 110px;
 }
 .camera{
     height: 275px;
@@ -171,6 +186,14 @@ html{
     padding-bottom: 15px;
     margin-left: 128px;
 }
+.favourites{
+    color: var(--secondadry-color);
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-left: 130px;
+}
 .home-favourites{
     height: 274px;
     width: 274px;
@@ -185,9 +208,6 @@ html{
 footer{
     background-color: var(--primary-color);
     height: 150px;
-}
-.socialmedia-icons{
-    fill: aqua;
 }
 .footer-nav{
     display: flex;
@@ -225,6 +245,13 @@ footer{
      margin-left: 100px;
      margin-top: 30px;
  }
+ .title-about{
+     color: var(--secondadry-color);
+     font-size: 4rem;
+     font-weight: 500;
+     margin-left: 120px;
+     margin-top: 30px;
+ }
  p.about-text{
      text-align: center;
      margin-left: 30px;
@@ -258,6 +285,16 @@ footer{
      text-decoration: none;
      color: white;
  }
+ .second-heading{
+     margin-left: 115px;
+ }
+ .graphic-heading{
+    color: var(--secondadry-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 115px;
+    margin-bottom: 25px;
+}
  /* Making sure the images for both photography and the artwork are the same size */
 .photograph-images{
     height: 285px;
@@ -267,15 +304,60 @@ footer{
     margin-bottom: 20px;
 }
 .digital{
-    height: 285px;
+    height: auto;
     width: 285px;
     object-fit: cover;
+    margin-left: 120px;
     margin-bottom: 20px;
+    background-color: var(--secondadry-color);
+    padding-bottom: 40px;
 }
-.digital{
-    background-color: blue;
-    padding-bottom: 50px;
+.description{
+    margin-left: 220px;
+    position: relative;
+    bottom: 50px;
+    color: white;
 }
-.second-heading{
-    margin-left: 115px;
+
+/*--------------------------------------------
+             Mobile Styles - Contact
+ -----------------------------------------------*/
+ .contact-form{
+     max-width: 70%;
+     margin-left: 70px;
+ }
+ h1.title{
+     margin-left: 70px;
+ }
+ .form-label{
+     color: var(--secondadry-color);
+     padding-top: 15px;
+     font-weight: 600;
+ }
+ .text-area{
+     resize: none;
+     width: 100%;
+     height: 250px;
+ }
+.button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: var(--secondadry-color);
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
 }
+.submit{
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+/*--------------------------------------------
+             Tablet Styles
+ -----------------------------------------------*/
+ @media only screen and (min-width: 768px){
+
+    
+ }
