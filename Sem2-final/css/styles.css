@@ -358,6 +358,110 @@ footer{
              Tablet Styles
  -----------------------------------------------*/
  @media only screen and (min-width: 768px){
-
+    /* ------------------
+        Landing Page
+    -----------------*/
+    .hello{
+        font-size: 4.2rem;
+    }
+    .welcome{
+        margin-left: 45px;
+    }
+    /* ------------------
+        Home Page
+    -----------------*/
+    .logo{
+        margin-left: 0px;
+    }
+    .camera{
+        height: 356px;
+        width: 356px;
+        object-fit: cover;
+    }
+    .home-intro{
+        display: flex;
+        flex-wrap: wrap;
+    }
     
+    .banner-text{
+        padding-top: 100px;
+    }
+    .favourites{
+        margin-left: 330px;
+    }
+     /* ------------------
+        About Page
+    -----------------*/
+    .navbar-light .navbar-nav .nav-link{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 35px;
+    }
+    .title-about{
+        font-size: 4.3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .aboutme-section{
+        display: flex;
+    }
+    .profile-pic{
+        width: 45%;
+        margin-left: 35px;
+    }
+    .about-text{
+        padding-top: 125px;
+    }
+    .banner-text{
+        padding-top: 140px;
+    }
+    .photography{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .second-heading, .graphic-heading{
+        margin-left: 350px;
+    }
+    .grahphic-design{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "one two"
+        "three four"
+        "five six"; 
+    }
+    .digital-background:nth-child(1){
+        grid-area: one;
+    }
+    .digital-background:nth-child(2){
+        grid-area: two;
+    }
+    .digital-background:nth-child(3){
+        grid-area: three;
+    }
+    .digital-background:nth-child(4){
+        grid-area: four;
+    }
+    .digital-background:nth-child(5){
+        grid-area: five;
+    }
+    .digital-background:nth-child(6){
+        grid-area: six;
+    }
+    /* ------------------
+        Contact Page
+    -----------------*/
+    .form{
+        margin-left: 100px;
+    }
+}
+/*--------------------------------------------
+             Desktop Styles
+ -----------------------------------------------*/
+ @media only screen and (min-width: 992px){
+    .navbar-light .navbar-nav .nav-link{
+        display: flex;
+        justify-content: flex-end;
+    }
  }
