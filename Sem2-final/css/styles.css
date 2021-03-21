@@ -460,8 +460,47 @@ footer{
              Desktop Styles
  -----------------------------------------------*/
  @media only screen and (min-width: 992px){
+/* ---------------------------
+        Landing page
+----------------------------*/
+    .grid-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+        "one two";
+    }
+    .grid-item:nth-child(1){
+        grid-area: one;
+    }
+    .grid-item:nth-child(2){
+        grid-area: two;
+    }
+    button.welcome:hover, .welcome-color:hover{
+        background-color: var(--text-color);
+        color: var(--primary-color);
+    }
+
+    
+     /* .profile-pic{
+        width: 100%; 
+        height: auto;
+    }  */
     .navbar-light .navbar-nav .nav-link{
         display: flex;
         justify-content: flex-end;
     }
+ /* ---------------------------
+        Home Page
+----------------------------*/
+    img.helicopter-image{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .favourites{
+        text-align: center;
+        margin-right: 350px;
+    }
+
  }
