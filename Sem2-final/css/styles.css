@@ -60,6 +60,9 @@ html{
 a{
     text-decoration: none;
 }
+.link-color:hover{
+    color: var(--secondadry-color);
+}
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav{
     color: var(--secondadry-color);
 }
@@ -147,6 +150,10 @@ a{
     background-color: transparent;
     margin-bottom: 50px;
     margin-top: 45px;
+}
+.about-me:hover{
+    background-color: var(--text-color);
+    color: var(--secondadry-color);
 }
 /* inner button styles */
 .about-me{
@@ -282,7 +289,7 @@ footer{
  .download{
      border: none;
      text-decoration: none;
-     color: white;
+     color: var(--primary-color);
  }
  .second-heading{
      margin-left: 115px;
@@ -388,6 +395,34 @@ footer{
     .favourites{
         margin-left: 330px;
     }
+    .home-intro{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+        "one two";
+    }
+    .home-grid:nth-child(1){
+        grid-area: one;
+    }
+    .home-grid:nth-child(2){
+        grid-area: two;
+    }
+    img.camera{
+        margin-bottom: 50px;
+    }
+    .about-text-home{
+        text-align: left;
+        line-height: 25px;
+    }
+    .banner-text{
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+    p.banner-text{
+        position: relative;
+        bottom: 50px;
+    }
      /* ------------------
         About Page
     -----------------*/
@@ -405,7 +440,7 @@ footer{
         display: flex;
     }
     .profile-pic{
-        width: 45%;
+        max-width: 45%;
         margin-left: 35px;
     }
     .about-text{
@@ -503,6 +538,37 @@ footer{
         text-align: center;
         margin-right: 350px;
     }
+    /* making a grid to be easier to read for the user */
+    .home-intro{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+        "one two";
+    }
+    .home-grid:nth-child(1){
+        grid-area: one;
+    }
+    .home-grid:nth-child(2){
+        grid-area: two;
+    }
+    /* alligning the text to line up with the button and heading */
+    .about-text-home{
+        line-height: 25px;
+        text-align: left;
+    }
+    /* adding space below the camera to avoid it touching the banner and removing the white space between the image and text so it doesn't look out of place*/
+    img.camera{
+        margin-bottom: 60px;
+        margin-left: 300px;
+    }
+    .home-intro{
+        max-width: 75%;
+        margin-left: 100px;
+    }
+    .home-grid:nth-child(2){
+        margin-left: 25px;
+    }
  /* ---------------------------
         About Me 
 ----------------------------*/
@@ -585,7 +651,11 @@ footer{
         }
     /* ---------------------------
         Contact Page
-    ----------------------------*/    
+    ----------------------------*/   
+    /* centering the contact form */
+    .form{
+        margin-left: 250px;
+    } 
     .contact-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -605,5 +675,11 @@ footer{
     }
     .mb-2:nth-child(4){
         grid-area: four;
+    }
+    .button:hover{
+        background-color: var(--primary-color);
+    }
+    .first-name, .email{
+        max-width: 97%;
     }
     }
