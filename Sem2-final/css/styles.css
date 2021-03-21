@@ -57,7 +57,6 @@ html{
 	--secondadry-color: #119DA4;
 	--text-color: #D3D0CB;;
 	}
-
 a{
     text-decoration: none;
 }
@@ -449,6 +448,10 @@ footer{
     .digital-background:nth-child(6){
         grid-area: six;
     }
+    h3.description{
+        text-align: center;
+        margin-left: 55px;
+    }   
     /* ------------------
         Contact Page
     -----------------*/
@@ -480,8 +483,6 @@ footer{
         background-color: var(--text-color);
         color: var(--primary-color);
     }
-
-    
      /* .profile-pic{
         width: 100%; 
         height: auto;
@@ -502,5 +503,84 @@ footer{
         text-align: center;
         margin-right: 350px;
     }
-
- }
+ /* ---------------------------
+        About Me 
+----------------------------*/
+    p.about-text{
+        line-height: 65px;
+    }
+    /* using flex to horizontally align items in the banner */
+    .banner-about{
+        display: flex;
+        height: 350px;
+    }
+    .outside-downlaod{
+        height: 100px;
+        margin-right: 75px;
+        margin-top: 130px;
+    }
+    /* adding a hover to allow for user interactvity */
+    .outside-downlaod:hover{
+        background-color: var(--text-color);
+    }
+    /* Photography grid for desktop 2 by 3 grid to make it easier to view */
+    .photography{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "one two three"
+        "four five six";    
+    }
+    .photograph-images:nth-child(1){
+        grid-area: one;
+    }
+    .photograph-images:nth-child(2){
+        grid-area: two;
+    }
+    .photograph-images:nth-child(3){
+        grid-area: three;
+    }
+    .photograph-images:nth-child(4){
+        grid-area: four;
+    }
+    .photograph-images:nth-child(5){
+        grid-area: five;
+    }
+    .photograph-images:nth-child(6){
+        grid-area: six;
+    }
+    /* graphic design grid for desktop 2 by 3 grid  */
+    .grahphic-design{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "one two three"
+        "four five six"; 
+    }
+    .digital-background:nth-child(1){
+        grid-area: one;
+    }
+    .digital-background:nth-child(2){
+        grid-area: two;
+    }
+    .digital-background:nth-child(3){
+        grid-area: three;
+    }
+    .digital-background:nth-child(4){
+        grid-area: four;
+    }
+    .digital-background:nth-child(5){
+        grid-area: five;
+    }
+    .digital-background:nth-child(6){
+        grid-area: six;
+    }
+    /* Centering both the photography and graphic design header  */
+    .second-heading, .graphic-heading{
+        text-align: center;
+        margin-right: 400px;
+        padding-bottom: 40px;
+        }
+    }
