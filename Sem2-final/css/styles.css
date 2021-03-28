@@ -501,19 +501,6 @@ footer{
 /* ---------------------------
         Landing page
 ----------------------------*/
-    .grid-item{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-areas: 
-        "one two";
-    }
-    .grid-item:nth-child(1){
-        grid-area: one;
-    }
-    .grid-item:nth-child(2){
-        grid-area: two;
-    }
     button.welcome:hover, .welcome-color:hover{
         background-color: var(--text-color);
         color: var(--primary-color);
