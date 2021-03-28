@@ -52,6 +52,7 @@ table {
 html{
     font-family: 'Open Sans', sans-serif;
 }
+/* colours that are used throughout the website */
 :root{
 	--primary-color: #393E41;
 	--secondadry-color: #119DA4;
@@ -84,6 +85,7 @@ a{
 .profile-pic{
     width: 100%;
     height: auto;
+    padding-top: 300px;
 }
 .hello, .landingpage-intro{
     color: var(--text-color);
@@ -113,6 +115,13 @@ a{
 .welcome-color{
     color: var(--text-color);
     text-decoration: none;
+}
+/* adding hover states to make it more interactive for the user */
+.welcome-color:hover{
+    color: var(--primary-color);
+}
+.welcome:hover{
+    background-color: var(--text-color);
 }
 /*--------------------------------------------
              Mobile Styles - Home
@@ -286,11 +295,18 @@ footer{
      padding-right: 55px ;
      border-radius: 55px;
  }
+ .outside-downlaod:hover{
+     background-color: var(--text-color);
+ }
  .download{
      border: none;
      text-decoration: none;
      color: var(--primary-color);
  }
+ .download:hover{
+     color: var(--secondadry-color);
+ }
+
  .second-heading{
      margin-left: 115px;
  }
@@ -324,7 +340,6 @@ footer{
     bottom: 50px;
     color: white;
 }
-
 /*--------------------------------------------
              Mobile Styles - Contact
  -----------------------------------------------*/
@@ -356,9 +371,15 @@ footer{
     padding-bottom: 20px;
     border-radius: 50px;
 }
+.button:hover{
+    background-color: var(--primary-color);
+}
 .submit{
     color: var(--text-color);
     font-size: 1.5rem;
+}
+.submit:hover{
+    color: var(--secondadry-color);
 }
 /*--------------------------------------------
              Tablet Styles
@@ -372,6 +393,9 @@ footer{
     }
     .welcome{
         margin-left: 45px;
+    }
+    .intro{
+        padding-top: 250px;
     }
     /* ------------------
         Home Page
