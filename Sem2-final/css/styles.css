@@ -154,6 +154,9 @@ a{
     color: var(--secondadry-color);
     font-size: 4rem;
 }
+.about-text-home{
+    line-height: 25px;
+}
 .button-home{
     border: none;
     background-color: transparent;
@@ -161,8 +164,13 @@ a{
     margin-top: 45px;
 }
 .about-me:hover{
-    background-color: var(--text-color);
-    color: var(--secondadry-color);
+    color: var(--secondadry-color); 
+    animation-name: about-transition;
+    animation-duration: 2s;
+}
+@keyframes about-transition{
+    from {background-color: var(--primary-color)}
+    to {background-color: var(--text-color)}
 }
 /* inner button styles */
 .about-me{
@@ -292,19 +300,25 @@ footer{
      padding-top: 15px;
      padding-bottom: 15px;
      padding-left: 55px;
-     padding-right: 55px ;
+     padding-right: 55px;
      border-radius: 55px;
  }
  .outside-downlaod:hover{
      background-color: var(--text-color);
- }
+     animation-name: button-transition;
+     animation-duration: 2s;
+    }
+    @keyframes button-transition {
+       from {background-color: var(--secondadry-color)}
+       to {background-color: var(--text-color)}
+     }
  .download{
      border: none;
      text-decoration: none;
      color: var(--primary-color);
  }
  .download:hover{
-     color: var(--secondadry-color);
+     color: var(--primary-color);
  }
 
  .second-heading{
@@ -362,7 +376,7 @@ footer{
  }
 .button{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border: none;
     background-color: var(--secondadry-color);
     padding-right: 45px;
@@ -373,6 +387,13 @@ footer{
 }
 .button:hover{
     background-color: var(--primary-color);
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes grow{
+    50% {transform: scale(1.5);}
 }
 .submit{
     color: var(--text-color);
