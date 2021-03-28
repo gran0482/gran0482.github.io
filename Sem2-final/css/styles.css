@@ -58,9 +58,11 @@ html{
 	--secondadry-color: #119DA4;
 	--text-color: #D3D0CB;;
 	}
+ /* removing the underline from the links to allow for proper styling */
 a{
     text-decoration: none;
 }
+/* allowing the user to know what link they are about to click */
 .link-color:hover{
     color: var(--secondadry-color);
 }
@@ -78,15 +80,16 @@ a{
  /*--------------------------------------------
              Mobile Styles - Landing
  -----------------------------------------------*/
-/* Movile styles for landing page */
+/* Setting the background color for the landing page to add visual interest */
 .background-color{
     background-color: var(--primary-color);
 }
+/* making my profile picture responsive */
 .profile-pic{
     width: 100%;
     height: auto;
-    padding-top: 300px;
 }
+/* aligning the text in the center to make it look visually appealing for mobile */
 .hello, .landingpage-intro{
     color: var(--text-color);
     text-align: center;
@@ -94,11 +97,13 @@ a{
 .hello{
     font-size: 4rem;
 }
+/* Adding padding to make sure there is space between the picture and text */
 .landingpage-intro{
     padding-top: 30px;
     font-size: 3rem;
     font-weight: 100;
 }
+/* Making the button look visually appealing */
 .welcome{
     background-color: var(--secondadry-color);
     font-size: 2rem;
@@ -132,37 +137,40 @@ a{
 .navbar-toggler{
     background-color: var(--text-color);
 }
+/* making the helicopter image responsive through all the different states */
 .helicopter-image{
     height: 375px;
     width: 100%;
     object-fit: cover;
     padding-bottom: 50px;
 }
+/* centering the content to be visually appealing in mobile */
 .home-intro{
     margin-left: 110px;
 }
+/* setting a fixed width and height of the image since the original was a rectangle */
 .camera{
     height: 275px;
     width: 275px;
     object-fit: cover;
 }
-.banner{
-    background-color: var(--primary-color);
-    color: var(--text-color);
-}
+/* Setting the size and color to belong with the theme of the website */
 .title-home{
     color: var(--secondadry-color);
     font-size: 4rem;
 }
+/* Allowing the text to be read easily */
 .about-text-home{
     line-height: 25px;
 }
+/* Styling the button so it looks appropriate on mobile */
 .button-home{
     border: none;
     background-color: transparent;
     margin-bottom: 50px;
     margin-top: 45px;
 }
+/* adding an animation to make it more engaging for the user */
 .about-me:hover{
     color: var(--secondadry-color); 
     animation-name: about-transition;
@@ -172,7 +180,7 @@ a{
     from {background-color: var(--primary-color)}
     to {background-color: var(--text-color)}
 }
-/* inner button styles */
+/* inner button styles to make it look visually appealing*/
 .about-me{
     background-color: var(--primary-color);
     color: var(--secondadry-color);
@@ -187,13 +195,18 @@ a{
     border: none;
     text-decoration: none;
 }
+/* making the welcome intro easy to read by the user */
 .about-text-home{
     padding-right: 120px;
     text-align: center;
 }
+/* Making the text ontop of the banner to be easily read by the user */
 .banner{
     height: 350px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
+/* Making sure the text stays inside the banner when resizing to tablet and desktop */
 .banner-text{
     padding-left: 50px;
     padding-right: 50px;
