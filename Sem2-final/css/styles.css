@@ -418,6 +418,13 @@ footer{
     .intro{
         padding-top: 250px;
     }
+    img.profile-pic.img-fluid{
+        transform: scale(3);
+        padding-bottom: 250px;
+    }
+    h1.hello, h2.landingpage-intro{
+        text-align: left;
+    }
     /* ------------------
         Home Page
     -----------------*/
