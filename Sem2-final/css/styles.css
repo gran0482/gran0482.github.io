@@ -481,14 +481,12 @@ footer{
     }
     .banner-text{
         padding-left: 110px;
+        padding-top: 100px;
         padding-right: 110px;
     }
     p.banner-text{
         position: relative;
         bottom: 50px;
-    }
-    .banner-text{
-        padding-top: 100px;
     }
     .favourites{
         margin-left: 330px;
@@ -607,6 +605,7 @@ footer{
         height: 400px;
         width: 100%;
         object-fit: cover;
+        object-position: 40% 67%;
     }
     .favourites{
         text-align: center;
@@ -643,9 +642,18 @@ footer{
     .home-grid:nth-child(2){
         margin-left: 25px;
     }
+    .banner{
+        height: 250px;
+    }
+    .favorite-section{
+        margin-left: 50px;
+    }
  /* ---------------------------
         About Me 
 ----------------------------*/
+    .title-about{
+        margin-top: 50px;
+    }
     p.about-text{
         line-height: 65px;
     }
@@ -661,7 +669,7 @@ footer{
     .outside-downlaod{
         height: 100px;
         margin-right: 170px;
-        margin-top: 130px;
+        margin-top: 100px;
     }
     /* adding a hover to allow for user interactvity */
     .outside-downlaod:hover{
@@ -758,6 +766,7 @@ footer{
     /* centering the contact form */
     .form{
         margin-left: 250px;
+        margin-top: 60px;
     } 
     .contact-grid{
         display: grid;
