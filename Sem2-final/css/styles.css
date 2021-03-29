@@ -239,7 +239,7 @@ a{
     margin-top: 15px;
 }
 .favorite-section{
-    margin-bottom: 25px;
+    margin-bottom: 75px;
 }
 /* Footer styles for all the pages */
 footer{
@@ -289,6 +289,7 @@ footer{
      margin-left: 120px;
      margin-top: 30px;
      margin-bottom: 10px;
+     font-weight: 600;
  }
  .circle-profile{
      height: 450px;
@@ -555,6 +556,21 @@ footer{
     .card:nth-child(6){
         grid-area: six;
     } 
+    /* Making the images the same size to prevent awkward different sizes in each card */
+    .card-img{
+        width: 286px;
+        height: 286px;
+        object-fit: cover;
+    }
+    .card:nth-child(2){
+        margin-left: 73px;
+    } 
+    .card:nth-child(4){
+        margin-left: 73px;
+    } 
+    .card:nth-child(6){
+        margin-left: 73px;
+    } 
     /* ------------------
         Contact Page
     -----------------*/
@@ -583,6 +599,10 @@ footer{
  /* ---------------------------
         Home Page
 ----------------------------*/
+    div.collapse.navbar-collapse{
+        display: flex;
+        justify-content: flex-end;
+    }
     img.helicopter-image{
         height: 400px;
         width: 100%;
@@ -634,9 +654,13 @@ footer{
         display: flex;
         height: 350px;
     }
+    .aboutme-section{
+        margin-left: 75px;
+        margin-right: 75px;
+    }
     .outside-downlaod{
         height: 100px;
-        margin-right: 75px;
+        margin-right: 170px;
         margin-top: 130px;
     }
     /* adding a hover to allow for user interactvity */
@@ -679,30 +703,55 @@ footer{
         "one two three"
         "four five six"; 
     }
-    .digital-background:nth-child(1){
+    .card:nth-child(1){
         grid-area: one;
     }
-    .digital-background:nth-child(2){
+    .card:nth-child(2){
         grid-area: two;
     }
-    .digital-background:nth-child(3){
+    .card:nth-child(3){
         grid-area: three;
     }
-    .digital-background:nth-child(4){
+    .card:nth-child(4){
         grid-area: four;
     }
-    .digital-background:nth-child(5){
+    .card:nth-child(5){
         grid-area: five;
     }
-    .digital-background:nth-child(6){
+    .card:nth-child(6){
         grid-area: six;
     }
+    .card:nth-child(2){
+        margin-left: 73px;
+    } 
+    .card:nth-child(4){
+        margin-left: 73px;
+    } 
+    .card:nth-child(6){
+        margin-left: 73px;
+    } 
+    /* Lining up the grid items with the other ones to be able to match the photography grid and look visually appealing*/
+    .card:nth-child(2){
+        margin-left: 120px;
+    } 
+    .card:nth-child(4){
+        margin-left: 120px;
+    } 
+    .card:nth-child(6){
+        margin-left: 120px;
+    } 
     /* Centering both the photography and graphic design header  */
-    .second-heading, .graphic-heading{
+    .second-heading{
         text-align: center;
         margin-right: 400px;
         padding-bottom: 40px;
-        }
+    }
+    .graphic-heading{
+        text-align: center;
+        margin-right: 400px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
     /* ---------------------------
         Contact Page
     ----------------------------*/   
