@@ -435,7 +435,7 @@ footer{
         padding-top: 250px;
     }
     img.profile-pic.img-fluid{
-        transform: scale(3);
+        width: 50%;
         padding-top: 175px;
         padding-bottom: 10px;
     }
@@ -551,7 +551,7 @@ footer{
     }
     .card:nth-child(6){
         grid-area: six;
-    } 
+    }  
     /* Making the images the same size to prevent awkward different sizes in each card */
     .card-img{
         width: 286px;
@@ -757,6 +757,9 @@ footer{
         margin-right: 400px;
         margin-top: 30px;
         padding-bottom: 20px;
+    }
+    .photography, .grahphic-design{
+        
     }
     /* ---------------------------
         Contact Page
