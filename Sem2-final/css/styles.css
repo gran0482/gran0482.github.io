@@ -480,9 +480,7 @@ footer{
         line-height: 25px;
     }
     .banner-text{
-        padding-left: 110px;
         padding-top: 100px;
-        padding-right: 110px;
     }
     p.banner-text{
         position: relative;
@@ -657,11 +655,6 @@ footer{
     p.about-text{
         line-height: 65px;
     }
-    /* using flex to horizontally align items in the banner */
-    .banner-about{
-        display: flex;
-        height: 350px;
-    }
     .aboutme-section{
         margin-left: 75px;
         margin-right: 75px;
@@ -674,6 +667,11 @@ footer{
     /* adding a hover to allow for user interactvity */
     .outside-downlaod:hover{
         background-color: var(--text-color);
+    }
+    /* using flex to horizontally align items in the banner */
+    .banner-about{
+        display: flex;
+        height: 325px;
     }
     /* Photography grid for desktop 2 by 3 grid to make it easier to view */
     .photography{
