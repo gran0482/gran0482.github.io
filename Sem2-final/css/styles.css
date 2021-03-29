@@ -433,10 +433,14 @@ footer{
     }
     img.profile-pic.img-fluid{
         transform: scale(3);
-        padding-bottom: 250px;
+        padding-top: 175px;
+        padding-bottom: 10px;
     }
     h1.hello, h2.landingpage-intro{
         text-align: left;
+    }
+    button.welcome{
+        margin-left: 5px;
     }
     /* ------------------
         Home Page
@@ -453,7 +457,6 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-    
     .banner-text{
         padding-top: 100px;
     }
@@ -570,13 +573,12 @@ footer{
         background-color: var(--text-color);
         color: var(--primary-color);
     }
-     /* .profile-pic{
-        width: 100%; 
-        height: auto;
-    }  */
     .navbar-light .navbar-nav .nav-link{
         display: flex;
         justify-content: flex-end;
+    }
+    img.profile-pic.img-fluid{
+        transform: scale(2);
     }
  /* ---------------------------
         Home Page
