@@ -56,7 +56,8 @@ html{
 :root{
 	--primary-color: #393E41;
 	--secondadry-color: #119DA4;
-	--text-color: #D3D0CB;;
+	--text-color: #D3D0CB;
+    --text-white: #ffffff;
 	}
  /* removing the underline from the links to allow for proper styling */
 a{
@@ -340,7 +341,6 @@ footer{
  .download:hover{
      color: var(--primary-color);
  }
-
  .second-heading{
      margin-left: 115px;
  }
@@ -359,20 +359,15 @@ footer{
     margin-left: 120px;
     margin-bottom: 20px;
 }
-.digital{
-    height: auto;
-    width: 285px;
-    object-fit: cover;
+.card{
     margin-left: 120px;
-    margin-bottom: 20px;
-    background-color: var(--secondadry-color);
-    padding-bottom: 40px;
 }
-.description{
-    margin-left: 220px;
-    position: relative;
-    bottom: 50px;
-    color: white;
+.card-body{
+    background-color: var(--secondadry-color);
+}
+.card-text{
+    color: var(--text-white);
+    text-align: center;
 }
 /*--------------------------------------------
              Mobile Styles - Contact
@@ -532,6 +527,7 @@ footer{
     .second-heading, .graphic-heading{
         margin-left: 350px;
     }
+    /* Creating a grid for the logos to be easier to to view on tablet screens */
     .grahphic-design{
         display: grid;
         grid-template-rows: repeat(3, 1fr);
@@ -541,28 +537,24 @@ footer{
         "three four"
         "five six"; 
     }
-    .digital-background:nth-child(1){
+    .card:nth-child(1){
         grid-area: one;
     }
-    .digital-background:nth-child(2){
+    .card:nth-child(2){
         grid-area: two;
     }
-    .digital-background:nth-child(3){
+    .card:nth-child(3){
         grid-area: three;
     }
-    .digital-background:nth-child(4){
+    .card:nth-child(4){
         grid-area: four;
     }
-    .digital-background:nth-child(5){
+    .card:nth-child(5){
         grid-area: five;
     }
-    .digital-background:nth-child(6){
+    .card:nth-child(6){
         grid-area: six;
-    }
-    h3.description{
-        text-align: center;
-        margin-left: 55px;
-    }   
+    } 
     /* ------------------
         Contact Page
     -----------------*/
