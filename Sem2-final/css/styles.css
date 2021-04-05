@@ -371,6 +371,15 @@ footer{
 /*--------------------------------------------
              Mobile Styles - Contact
  -----------------------------------------------*/
+ .title{
+     color: var(--secondadry-color);
+     margin-left: 115px;
+     font-size: 2.5rem;
+     margin-left: 115px;
+     margin-top: 30px;
+     margin-bottom: 20px;
+     font-weight: 500;
+ }
  .contact-form{
      max-width: 70%;
      margin-left: 70px;
@@ -762,7 +771,7 @@ footer{
     }
     /* ---------------------------
         Contact Page
-    ----------------------------*/   
+    ----------------------------*/
     /* centering the contact form */
     .form{
         margin-left: 250px;
