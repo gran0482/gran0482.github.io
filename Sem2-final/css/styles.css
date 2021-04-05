@@ -584,17 +584,19 @@ footer{
         background-color: var(--text-color);
         color: var(--primary-color);
     }
-    .navbar-light .navbar-nav .nav-link{
-        display: flex;
-        justify-content: flex-end;
-    }
+    /* Growing my image to be an appropriate size on the desktop */
     img.profile-pic.img-fluid{
         max-width: 50%;
         transform: scale(2);
     }
- /* ---------------------------
-        Home Page
-----------------------------*/
+    /* ---------------------------
+            Home Page
+    ----------------------------*/
+    /* Making the nav be on the left hand side instead of having it to the right of the logo to look visually appealing */
+    .navbar-light .navbar-nav .nav-link{
+        display: flex;
+        justify-content: flex-end;
+    }
     div.collapse.navbar-collapse{
         display: flex;
         justify-content: flex-end;
@@ -757,9 +759,6 @@ footer{
         margin-right: 400px;
         margin-top: 30px;
         padding-bottom: 20px;
-    }
-    .photography, .grahphic-design{
-        
     }
     /* ---------------------------
         Contact Page
