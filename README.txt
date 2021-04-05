@@ -29,6 +29,7 @@ Challenge #6 Absolute vs Relative path
 
 
 Learning Outcomes
+During the creation and production of my web portfolio I learned that it is important that your website can be functional for all users across all browsers. 
 
 Frameworks and Libraries
 Bootstrap - https://getbootstrap.com/
