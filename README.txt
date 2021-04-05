@@ -21,6 +21,7 @@ Challenge #4 Self portrait stretching (About page)
 During designing my about page I included a self portrait of myself and when the viewport resized and my image stretched in a vertical way. To work around this issue I had to set a fixed height and width to avoid this issue and it would look the same size in mobile, tablet and desktop. 
 
 Challenge #5 About page section divider
+When resizng the viewport the text would go outside of the container and I didn't want that to happen. To get around this problem I used a bootstrap grid of 2x2 and then set the parameters for medium and large screen sizes.
 
 Challenge #5 side bar scrolling (About page)
 

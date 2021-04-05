@@ -211,9 +211,6 @@ a{
 }
 /* Making sure the text stays inside the banner when resizing to tablet and desktop */
 .banner-text{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 60px;
     line-height: 45px;
     font-size: 2rem;
 }
@@ -522,9 +519,6 @@ footer{
     .about-text{
         padding-top: 125px;
     }
-    .banner-text{
-        padding-top: 140px;
-    }
     .photography{
         display: flex;
         flex-wrap: wrap;
@@ -670,9 +664,6 @@ footer{
         margin-left: 75px;
         margin-right: 75px;
     } 
-    p.banner-text.aboutme{
-        padding-bottom: 350px;
-    }
     .outside-downlaod{
         height: 100px;
         margin-right: 170px;
