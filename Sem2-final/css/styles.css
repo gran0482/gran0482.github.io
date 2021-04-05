@@ -669,6 +669,9 @@ footer{
     .aboutme-section{
         margin-left: 75px;
         margin-right: 75px;
+    } 
+    p.banner-text.aboutme{
+        padding-bottom: 350px;
     }
     .outside-downlaod{
         height: 100px;

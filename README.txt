@@ -14,9 +14,13 @@ During production when I was testing my website for user-functionality I noticed
 Challenge #2 Helicopter banner image 
 When I added the helicopter image as the banner image I wanted the helicopter to be visible at all times. Originally when the viewport size grew so did the helicopter image and only the blades of were visible. To solve this problem I googled my issue and found a codepen that helped me understand the object-position property that I was looking for. Now when the viewport grows in size the helicopter is always visible.
 
-Challenge #3 card text and image issue - When designing my cards in the About page below the graphic design area I tried to have the text stay in one place when the viewport size grew. The text would not stay in the same place and would often go outside of the container I had it in. Also, the same similar issue was happening with my images. I had to try and make all the images the same size and they would fit the container appropriately. Since I had a bootstrap template in place I decided to replace my cards with the prebuilt cards that bootstrap has. This allowed me to fix both my image and text issue so all the elements would stay the same size when resizing to mobile, tablet or desktop.
+Challenge #3 card text and image issue 
+When designing my cards in the About page below the graphic design area I tried to have the text stay in one place when the viewport size grew. The text would not stay in the same place and would often go outside of the container I had it in. Also, the same similar issue was happening with my images. I had to try and make all the images the same size and they would fit the container appropriately. Since I had a bootstrap template in place I decided to replace my cards with the prebuilt cards that bootstrap has. This allowed me to fix both my image and text issue so all the elements would stay the same size when resizing to mobile, tablet or desktop.
 
-Challenge #4 Self portrait stretching (About page) - During designing my about page I included a self portrait of myself and when the viewport resized and my image stretched in a vertical way. To work around this issue I had to set a fixed height and width to avoid this issue and it would look the same size in mobile, tablet and desktop. 
+Challenge #4 Self portrait stretching (About page) 
+During designing my about page I included a self portrait of myself and when the viewport resized and my image stretched in a vertical way. To work around this issue I had to set a fixed height and width to avoid this issue and it would look the same size in mobile, tablet and desktop. 
+
+Challenge #5 About page section divider
 
 Challenge #5 side bar scrolling (About page)
 
