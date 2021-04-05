@@ -133,7 +133,7 @@ a{
  -----------------------------------------------*/
  /*  adjusting the size of the logo to prevent it from being to big on the page*/
 .logo{
-    margin-left: 85px;
+    margin-left: 95px;
     width: 65%;
 }
 /* making the toggler match the theme of the website */
