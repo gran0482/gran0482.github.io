@@ -113,7 +113,7 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 55px;
-    padding-right: 55px ;
+    padding-right: 55px; 
     border-radius: 55px;
     border: none;
 }
@@ -133,7 +133,7 @@ a{
  -----------------------------------------------*/
  /*  adjusting the size of the logo to prevent it from being to big on the page*/
 .logo{
-    margin-left: 95px;
+    margin-left: 95px; 
     width: 65%;
 }
 /* making the toggler match the theme of the website */
@@ -145,26 +145,44 @@ a{
     height: 375px;
     width: 100%;
     object-fit: cover;
-    padding-bottom: 50px;
+}
+.home-intro{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "one one"
+    "two two";
+}
+.home-grid:nth-child(1){
+    grid-area: one;
+}
+.home-grid:nth-child(2){
+    grid-area: two;
+    text-align: center;
 }
 /* centering the content to be visually appealing in mobile */
 .home-intro{
-    margin-left: 110px;
-}
+    padding: 50px;
+} 
 /* setting a fixed width and height of the image since the original was a rectangle */
 .camera{
-    height: 275px;
-    width: 275px;
-    object-fit: cover;
-}
+    max-width: 100%;
+    object-fit: cover; 
+    padding-bottom: 10px;
+} 
 /* Setting the size and color to belong with the theme of the website */
 .title-home{
     color: var(--secondadry-color);
     font-size: 4rem;
+    text-align: center;
+    padding-bottom: 10px;
 }
 /* Allowing the text to be read easily */
 .about-text-home{
-    line-height: 25px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 1.2rem;
 }
 /* Styling the button so it looks appropriate on mobile */
 .button-home{
@@ -188,8 +206,6 @@ a{
     background-color: var(--primary-color);
     color: var(--secondadry-color);
     font-size: 2rem;
-    margin-top: 30px;
-    margin-bottom: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 55px;
@@ -197,11 +213,6 @@ a{
     border-radius: 55px;
     border: none;
     text-decoration: none;
-}
-/* making the welcome intro easy to read by the user */
-.about-text-home{
-    padding-right: 120px;
-    text-align: center;
 }
 /* Making the text ontop of the banner to be easily read by the user */
 .banner{
@@ -480,6 +491,7 @@ footer{
     }
     .home-grid:nth-child(2){
         grid-area: two;
+        text-align: left;
     }
     img.camera{
         margin-bottom: 50px;
@@ -487,6 +499,11 @@ footer{
     .about-text-home{
         text-align: left;
         line-height: 25px;
+        line-height: 30px;
+        font-size: 1.2rem;
+    }
+    .title-home{
+        text-align: left;
     }
     .banner-text{
         padding-top: 100px;
@@ -614,12 +631,17 @@ footer{
         object-fit: cover;
         object-position: 40% 67%;
     }
-    .favourites{
-        text-align: center;
-        margin-right: 350px;
+    .title-home{
+        padding-bottom: 10px;
     }
-    /* making a grid to be easier to read for the user */
+    /* alligning the text to line up with the button and heading */
+    .about-text-home{
+        line-height: 40px;
+        text-align: left;
+        font-size: 1.2rem;
+    }
     .home-intro{
+        padding: 100px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -628,32 +650,21 @@ footer{
     }
     .home-grid:nth-child(1){
         grid-area: one;
+        text-align: center;
     }
     .home-grid:nth-child(2){
         grid-area: two;
-    }
-    /* alligning the text to line up with the button and heading */
-    .about-text-home{
-        line-height: 25px;
         text-align: left;
-    }
-    /* adding space below the camera to avoid it touching the banner and removing the white space between the image and text so it doesn't look out of place*/
-    img.camera{
-        margin-bottom: 60px;
-        margin-left: 300px;
-    }
-    .home-intro{
-        max-width: 75%;
-        margin-left: 100px;
-    }
-    .home-grid:nth-child(2){
-        margin-left: 25px;
     }
     .banner{
         height: 250px;
     }
     .favorite-section{
         margin-left: 50px;
+    }
+    .favourites{
+        text-align: center;
+        margin-right: 350px;
     }
  /* ---------------------------
         About Me 
