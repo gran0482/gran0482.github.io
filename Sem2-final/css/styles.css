@@ -188,9 +188,10 @@ a{
 .button-home{
     border: none;
     background-color: transparent;
+    height: 100px;
     margin-bottom: 50px;
-    margin-top: 45px;
-}
+    margin-top: 45px; 
+} 
 /* adding an animation to make it more engaging for the user */
 .about-me:hover{
     color: var(--secondadry-color); 
