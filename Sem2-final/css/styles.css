@@ -368,8 +368,10 @@ footer{
     height: 285px;
     width: 285px;
     object-fit: cover;
-    margin-left: 120px;
     margin-bottom: 20px;
+}
+.photo-image{
+    text-align: center;
 }
 .card{
     margin-left: 120px;
@@ -679,7 +681,7 @@ footer{
     .aboutme-section{
         margin-left: 75px;
         margin-right: 75px;
-    } 
+    }  
     .outside-downlaod{
         height: 100px;
         margin-right: 170px;
