@@ -188,7 +188,7 @@ a{
 .button-home{
     border: none;
     background-color: transparent;
-    height: 100px;
+    height: 80px;
     margin-bottom: 50px;
     margin-top: 45px; 
 } 
@@ -694,81 +694,8 @@ footer{
         display: flex;
         height: 325px;
     }
-    /* Photography grid for desktop 2 by 3 grid to make it easier to view */
-    .photography{
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-        "one two three"
-        "four five six";    
-    }
-    .photograph-images:nth-child(1){
-        grid-area: one;
-    }
-    .photograph-images:nth-child(2){
-        grid-area: two;
-    }
-    .photograph-images:nth-child(3){
-        grid-area: three;
-    }
-    .photograph-images:nth-child(4){
-        grid-area: four;
-    }
-    .photograph-images:nth-child(5){
-        grid-area: five;
-    }
-    .photograph-images:nth-child(6){
-        grid-area: six;
-    }
-    /* graphic design grid for desktop 2 by 3 grid  */
-    .grahphic-design{
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: 
-        "one two three"
-        "four five six"; 
-    }
-    .card:nth-child(1){
-        grid-area: one;
-    }
-    .card:nth-child(2){
-        grid-area: two;
-    }
-    .card:nth-child(3){
-        grid-area: three;
-    }
-    .card:nth-child(4){
-        grid-area: four;
-    }
-    .card:nth-child(5){
-        grid-area: five;
-    }
-    .card:nth-child(6){
-        grid-area: six;
-    }
-    .card:nth-child(2){
-        margin-left: 73px;
-    } 
-    .card:nth-child(4){
-        margin-left: 73px;
-    } 
-    .card:nth-child(6){
-        margin-left: 73px;
-    } 
-    /* Lining up the grid items with the other ones to be able to match the photography grid and look visually appealing*/
-    .card:nth-child(2){
-        margin-left: 120px;
-    } 
-    .card:nth-child(4){
-        margin-left: 120px;
-    } 
-    .card:nth-child(6){
-        margin-left: 120px;
-    } 
     /* Centering both the photography and graphic design header  */
-    .second-heading{
+    /* .second-heading{
         text-align: center;
         margin-right: 400px;
         padding-bottom: 40px;
@@ -778,7 +705,7 @@ footer{
         margin-right: 400px;
         margin-top: 30px;
         padding-bottom: 20px;
-    }
+    }  */
     /* ---------------------------
         Contact Page
     ----------------------------*/
