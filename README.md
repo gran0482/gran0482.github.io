@@ -31,7 +31,7 @@ During designing my about page I noticed that my photography images and grahic d
 
 
 Learning Outcomes
-During the creation and production of my web portfolio I learned that it is important that your website can be functional for all users across all browsers. 
+During the creation and production of my web portfolio I learned that it is very important to do a lot of testing to ensure your website is responsive for various screen sizes and works with different browsers to ensure that your website is fully functional for all users across all screen sizes and browsers. A second learning outcome is that when I set properties in my mobile styles they will be inherited by my tablet and desktop styles and if I want the behaviour to be different in these I need to overwrite these styles. I also learned that changing an element in my mobile styles can sometimes effect the tablet and desktop behaviour unexpectedly so I have to be careful of my styles. 
 
 Frameworks and Libraries
 Bootstrap - https://getbootstrap.com/
