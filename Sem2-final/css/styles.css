@@ -227,14 +227,13 @@ a{
     font-weight: 600;
     padding-top: 30px;
     padding-bottom: 15px;
-    margin-left: 130px;
+    text-align: center;
 }
 /* Making the images the same height and width as each of them are designed at different widths and height */
 .home-favourites{
     height: 274px;
     width: 274px;
     object-fit: cover;
-    margin-left: 120px;
     margin-top: 15px;
 }
 /* Making sure that there is space below to avoid the images touching the footer */
@@ -497,9 +496,6 @@ footer{
         margin-left: 20px;
         margin-right: 30px;
     }
-    .favourites{
-        margin-left: 330px;
-    }
      /* ------------------
         About Page
     -----------------*/
@@ -612,10 +608,6 @@ footer{
     }
     .favorite-section{
         margin-left: 50px;
-    }
-    .favourites{
-        text-align: center;
-        margin-right: 350px;
     }
  /* ---------------------------
         About Me 
