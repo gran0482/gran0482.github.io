@@ -281,17 +281,19 @@ footer{
      color: var(--secondadry-color);
      font-size: 4rem;
      font-weight: 500;
-     margin-left: 120px;
      margin-top: 30px;
      margin-bottom: 10px;
      font-weight: 600;
+     text-align: center;
  }
  /* setting a fixed height and width to make sure the image stays the say through the different states */
  .circle-profile{
      height: 450px;
      width: 450px;
      object-fit: cover;
-     margin-left: 22px;
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
 }
 /* Allowing the text to be easily read by any user */
  p.about-text{
@@ -307,7 +309,7 @@ footer{
      text-align: center;
  }
  .aboutme{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 45px;
     padding-top: 30px;
     text-align: center;
@@ -507,9 +509,6 @@ footer{
         justify-content: flex-end;
         padding-right: 35px;
     }
-    .title-about{
-        text-align: center;
-    }
     .aboutme-section{
         display: flex;
         margin-bottom: 75px;
@@ -621,7 +620,7 @@ footer{
         margin-top: 50px;
     }
     p.about-text{
-        line-height: 65px;
+        line-height: 35px;
     }
     .aboutme-section{
         margin-left: 75px;
@@ -634,6 +633,9 @@ footer{
     }
     .aboutme{
         padding-top: 45px;
+     }
+     .about-text{
+         font-size: 1.3rem;
      }
     /* adding a hover to allow for user interactvity */
     .outside-downlaod:hover{
