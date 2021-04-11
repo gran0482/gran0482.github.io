@@ -308,7 +308,10 @@ footer{
  }
  .aboutme{
     font-size: 1.5rem;
-    line-height: 40px;
+    line-height: 45px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 30px;
  }
  /* centering the button with the text to follow the mobile styles */
  .outside-downlaod{
@@ -629,6 +632,9 @@ footer{
         margin-right: 170px;
         margin-top: 150px;
     }
+    .aboutme{
+        padding-top: 45px;
+     }
     /* adding a hover to allow for user interactvity */
     .outside-downlaod:hover{
         background-color: var(--text-color);
