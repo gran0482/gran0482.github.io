@@ -117,14 +117,8 @@ a{
     border-radius: 55px;
     border: none;
 }
-.welcome-color{
-    color: var(--text-color);
-    text-decoration: none;
-}
+
 /* adding hover states to make it more interactive for the user */
-.welcome-color:hover{
-    color: var(--primary-color);
-}
 .welcome:hover{
     background-color: var(--text-color);
 }
@@ -191,19 +185,6 @@ a{
     height: 80px;
     margin-bottom: 50px;
     margin-top: 45px; 
-} 
-/* adding an animation to make it more engaging for the user */
-.about-me:hover{
-    color: var(--secondadry-color); 
-    animation-name: about-transition;
-    animation-duration: 2s;
-}
-@keyframes about-transition{
-    from {background-color: var(--primary-color)}
-    to {background-color: var(--text-color)}
-}
-/* inner button styles to make it look visually appealing*/
-.about-me{
     background-color: var(--primary-color);
     color: var(--secondadry-color);
     font-size: 2rem;
@@ -214,6 +195,16 @@ a{
     border-radius: 55px;
     border: none;
     text-decoration: none;
+} 
+/* adding an animation to make it more engaging for the user */
+.button-home:hover{
+    color: var(--secondadry-color); 
+    animation-name: about-transition;
+    animation-duration: 2s;
+}
+@keyframes about-transition{
+    from {background-color: var(--primary-color)}
+    to {background-color: var(--text-color)}
 }
 /* Making the text ontop of the banner to be easily read by the user */
 .banner{
@@ -333,25 +324,19 @@ footer{
      padding-left: 55px;
      padding-right: 55px;
      border-radius: 55px;
+     color: var(--primary-color);
  }
  /* Making the "download" interactive for the user */
  .outside-downlaod:hover{
      background-color: var(--text-color);
      animation-name: button-transition;
      animation-duration: 2s;
+     color: var(--primary-color);
     }
     @keyframes button-transition {
        from {background-color: var(--secondadry-color)}
        to {background-color: var(--text-color)}
      }
- .download{
-     border: none;
-     text-decoration: none;
-     color: var(--primary-color);
- }
- .download:hover{
-     color: var(--primary-color);
- }
  /* making the photography and graphic design heading the same to have consistency */
  .second-heading, .graphic-heading{
      color: var(--secondadry-color);
@@ -425,6 +410,8 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 50px;
+    font-size: 1.5rem;
+    color: var(--text-color);
 }
 .button:hover{
     background-color: var(--primary-color);
@@ -432,16 +419,10 @@ footer{
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    color: var(--secondadry-color);
 }
 @keyframes grow{
     50% {transform: scale(1.5);}
-}
-.submit{
-    color: var(--text-color);
-    font-size: 1.5rem;
-}
-.submit:hover{
-    color: var(--secondadry-color);
 }
 /*--------------------------------------------
              Tablet Styles
@@ -577,7 +558,7 @@ footer{
 /* ---------------------------
         Landing page
 ----------------------------*/
-    button.welcome:hover, .welcome-color:hover{
+    button.welcome:hover{
         background-color: var(--text-color);
         color: var(--primary-color);
     }
