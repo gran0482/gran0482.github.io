@@ -140,6 +140,7 @@ a{
     width: 100%;
     object-fit: cover;
 }
+/* making a grid for 1 column and 2 rows to follow to the mobile style layout */
 .home-intro{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -250,6 +251,7 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+/* making the footer nav be consistent with my colour scheme */
 .link-color{
     color: var(--text-color);
     text-decoration: none;
@@ -258,6 +260,7 @@ footer{
     position: relative;
     bottom: 30px;
 }
+/* Making sure the social medias are big enough for the user to click on */
 .socialmedia-icons{
     max-width: 75px;
     padding-left: 30px;
@@ -308,6 +311,7 @@ footer{
      height: 500px;
      text-align: center;
  }
+ /* Setting the font size and height to be appropriate on mobile devices */
  .aboutme{
     font-size: 1.4rem;
     line-height: 45px;
@@ -357,14 +361,17 @@ footer{
     object-fit: cover;
     margin-bottom: 20px; 
 }
+/* Centering my image to be pleasing to the eye */
 .photo-image{
     text-align: center;
 }
+/* Setting a fixed height and width to avoid the graphic images being different sizes */
 .card{
     height: 285px;
     width: 285px;
     object-fit: cover; 
 }
+/* Setting the background and centering the text */
 .card-body{
     background-color: var(--secondadry-color);
 }
@@ -372,12 +379,14 @@ footer{
     color: var(--text-white);
     text-align: center;
 }
+/* Adding spacing to the bottom of the container to avoid the cards  */
 .container{
     padding-bottom: 40px;
 } 
 /*--------------------------------------------
              Mobile Styles - Contact
  -----------------------------------------------*/
+ /* Making the title consistent with my theme */
  .title{
      color: var(--secondadry-color);
      margin-left: 115px;
@@ -387,6 +396,7 @@ footer{
      margin-bottom: 20px;
      font-weight: 500;
  }
+ /* Setting a max width to avoid the feilds being to long */
  .contact-form{
      max-width: 70%;
      margin-left: 70px;
@@ -394,6 +404,7 @@ footer{
  h1.title{
      margin-left: 70px;
  }
+ /* making the form lables be consistent with my theme */
  .form-label{
      color: var(--secondadry-color);
      padding-top: 15px;
@@ -404,6 +415,7 @@ footer{
      width: 100%;
      height: 250px;
  }
+ /* making the button be consistent with the theme */
 .button{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -417,6 +429,7 @@ footer{
     font-size: 1.5rem;
     color: var(--text-color);
 }
+/* Making the submit button interactive for user engagement */
 .button:hover{
     background-color: var(--primary-color);
     animation-name: grow;
@@ -435,21 +448,25 @@ footer{
     /* ------------------
         Landing Page
     -----------------*/
+    /* Setting the font size to be appropriate for tablet */
     .hello{
         font-size: 4.2rem;
     }
+    /* making sure the text doesnt overlap my image */
     .welcome{
         margin-left: 45px;
     }
     .intro{
         padding-top: 250px;
     }
+    /* making my image bigger for tablet to be pleasing to the eye */
     img.profile-pic.img-fluid{
         width: 100%;
         transform: scale(1.2);
         padding-top: 190px;
         padding-bottom: 10px;
     }
+    /* Alligning the text and adding margin to make it look visually appealing */
     h1.hello, h2.landingpage-intro{
         text-align: left;
     }
@@ -459,17 +476,21 @@ footer{
     /* ------------------
         Home Page
     -----------------*/
+    /* pushing the logo to the left hand side */
     .logo{
         margin-left: 0px;
     }
+    /* Setting a fixed witdth and height to make the image look viusllay appealing */
     .camera{
         height: 356px;
         width: 356px;
         object-fit: cover;
     }
+    /* allowing the button to line up with the text */
     .button-home{
         margin-left: 2px;
     }
+    /* making the camera and text look visually appealing in tablet */
     .home-intro{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -484,9 +505,11 @@ footer{
         grid-area: two;
         text-align: left;
     }
+    /* lining up the image with the text */
     img.camera{
         margin-bottom: 50px;
     }
+    /* lining the title, and text to be visually appealing */
     .about-text-home{
         text-align: left;
         line-height: 25px;
@@ -504,11 +527,13 @@ footer{
      /* ------------------
         About Page
     -----------------*/
+    /* pushing the navigation to the left instead of having it beside the logo */
     .navbar-light .navbar-nav .nav-link{
         display: flex;
         justify-content: flex-end;
         padding-right: 35px;
     }
+    /* using flex to have my image and text horizontally allign with each other */
     .aboutme-section{
         display: flex;
         margin-bottom: 75px;
@@ -520,12 +545,9 @@ footer{
         margin-top: 50px;
         margin-left: 20px;
     }
+    /* adding padding to ensure the text lines up with my image */
     .about-text{
         padding-top: 125px;
-    }
-    .photography{
-        display: flex;
-        flex-wrap: wrap;
     }
     /* Making the images the same size to prevent awkward different sizes in each card */
     .card-img{
@@ -533,18 +555,10 @@ footer{
         height: 286px;
         object-fit: cover;
     }
-    .card:nth-child(2){
-        margin-left: 73px;
-    } 
-    .card:nth-child(4){
-        margin-left: 73px;
-    } 
-    .card:nth-child(6){
-        margin-left: 73px;
-    } 
     /* ------------------
         Contact Page
     -----------------*/
+    /* adding a margin to make the form look pleasing for tablet */
     .form{
         margin-left: 100px;
     }
@@ -573,16 +587,19 @@ footer{
         display: flex;
         justify-content: flex-end;
     }
+    /* Making the navigation be on the right hand side of the page */
     div.collapse.navbar-collapse{
         display: flex;
         justify-content: flex-end;
     }
+    /* Using object-position to have the helicopter be visible at all times */
     img.helicopter-image{
         height: 400px;
         width: 100%;
         object-fit: cover;
         object-position: 40% 67%;
     }
+    /* Making a grid to be pleasing to the eye in desktop */
     .home-intro{
         padding: 100px;
         display: grid;
@@ -599,6 +616,7 @@ footer{
         grid-area: two;
         text-align: left;
     }
+    /* Adding padding to the bottom to avoid the text overlapping the text */
     .title-home{
         padding-bottom: 10px;
     }
@@ -608,6 +626,7 @@ footer{
         text-align: left;
         font-size: 1.2rem;
     }
+    /* ensuring my banner text looks appropriate in desktop styles */
     .banner-text{
         padding-top: 75px;
         margin-left: 200px;
@@ -616,27 +635,32 @@ footer{
  /* ---------------------------
         About Me 
 ----------------------------*/
+/* making the title not touch the navigation */
     .title-about{
         margin-top: 50px;
     }
+    /* making the text look appropriate for desktop styles */
     p.about-text{
         line-height: 35px;
     }
+    /* ensuring the text doesn't be full width */
     .aboutme-section{
         margin-left: 75px;
         margin-right: 75px;
     }  
-    .outside-downlaod{
-        height: 100px;
-        margin-right: 170px;
-        margin-top: 150px;
-    }
+    /* allow the text to look approprate for desktop styles */
     .aboutme{
         padding-top: 45px;
      }
      .about-text{
          font-size: 1.3rem;
      }
+     /* allowing the button to look appropriate in the banner */
+     .outside-downlaod{
+        height: 100px;
+        margin-right: 170px;
+        margin-top: 150px;
+    }
     /* adding a hover to allow for user interactvity */
     .outside-downlaod:hover{
         background-color: var(--text-color);
@@ -654,6 +678,7 @@ footer{
         margin-left: 250px;
         margin-top: 60px;
     } 
+    /* making a grid to avoid all the feilds being stacked ontop of each other for desktop styles */
     .contact-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -674,9 +699,11 @@ footer{
     .mb-2:nth-child(4){
         grid-area: four;
     }
+    /* making the button interactive for the user */
     .button:hover{
         background-color: var(--primary-color);
     }
+    /* avoiding the feilds from touching each other */
     .first-name, .email{
         max-width: 97%;
     }
